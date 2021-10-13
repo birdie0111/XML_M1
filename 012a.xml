@@ -32,6 +32,38 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <div type="titre">
+        <titlePage rend="center">
+          <docTitle>
+            <titlePart type="main">Titre non renseigné (012a)</titlePart>
+          </docTitle>
+          <byline><docAuthor>Auteur non renseigné</docAuthor></byline>
+          <docImprint>
+            <lb/>Université de Genève
+          </docImprint>
+        </titlePage>
+      </div>
+      <div type="table">
+        <head>Sommaire</head>
+        <p>1. Introduction</p>
+        <p>2. Cadre théorique</p>
+        <p>2.1 Le système casuel en polonais</p>
+        <p>2.2 Le système prépositionelle du français</p>
+        <p>3. Méthodologie</p>
+        <p>4. Analyse et résultats</p>
+        <p>4.1 Nominatif</p>
+        <p>4.2 Génitif</p>
+        <p>4.3 Datif</p>
+        <p>4.4 Accusatif</p>
+        <p>4.5 Instrumental</p>
+        <p>4.6 Locatif</p>
+        <p>4.7 Vocatif</p>
+        <p>5. Conclusion</p>
+        <p>6. Bibliographie</p>
+        <p>7. Annexe</p>
+      </div>
+    </front>
     <body>
       <p rend="center">La flexion nominale en polonais et ses équivalents français</p>
       <divGen type="toc"/>
@@ -86,7 +118,7 @@
       </table>
       <p>Lenart, 2006 : Tableau 1.4, p. 63  : Le système flexionnel du polonais et ses fonctions les plus typiques.</p>
       <p rend="bu2">Le système prépositionelle du français</p>
-      <p>En français, ces déclinaisons n’existent pas.  Les deux cas qu’il avait hérités du latin ont été remplacés par un seul cas et les relations exprimées en latin ou en polonais par les morphèmes flexionnels sont aujourd’hui exprimées par certaines prépositions, en particulier par les prépositions de, à, en qui se sont soudées avec les articles afin de former « les morphèmes préfixés » (Gniadek, 1979 : 67). Même si polonais se sert également des prépositions (idę do teatru – je vais au théâtre ; teatr [théâtre]), il garde toujours tout ses cas.</p>
+      <p>En français, ces déclinaisons n’existent pas.  Les deux cas qu’il avait hérités du latin ont été remplacés par un seul cas et les relations exprimées en latin ou en polonais par les morphèmes flexionnels sont aujourd’hui exprimées par certaines prépositions, en particulier par les prépositions de, à, en qui se sont soudées avec les articles afin de former « <quote>les morphèmes préfixés </quote>» (Gniadek, 1979 : 67). Même si polonais se sert également des prépositions (idę do teatru – je vais au théâtre ; teatr [théâtre]), il garde toujours tout ses cas.</p>
       <p rend="bu1">Méthodologie</p>
       <p rend="default">Comme on part de l’observation du corpus, sans aucun présupposé théorique, on va se servir de  l’approche « corpus-driven ». Des analyses et des conclusions seront faire à partir du corpus des exemples repérés dans le corpus <emph>Opus Corpus</emph> présentés dans l’introduction.</p>
       <p>Étant consciente de la complexité du système aspectuel de la langues polonaise, nous avons décidé de nous concentrer sur la flexion nominale.</p>
@@ -98,7 +130,7 @@
       <p>Vu que le logiciel <emph>Opus corpus</emph> ne donne pas la possibilité d’un rechcerche des lemmes de mots qui permettrait de réperer tous les cas d’un mot choisi et grace à cela contruire une liste des morphèmes, nous étions obligés de se servir des tableaux de déclinaison disponible en ligne : odmiana.net (ammexe 1 et 2).</p>
       <p>Les mots sélectionnés pour ce tâche se sont : syn [fils] et książka [livre]. Nous avons sélectionnés ces deux noms, parce qu’ils représentent en polonais deux genre différents : syn - le masculin, książka - le féminin, et appartiennent à différents groupes de mots (répondent aux questions différents : syn - kto ? <emph>(qui ?)</emph>, książka - <emph>co ?(quoi ?)</emph>.</p>
       <p>Quant à la méthodologie de traitement des données, nous avons opté pour l’approche qualitative puisque le nombre d’exemple analysé (20 pour chaque cas) ne permet pas d’utiliser l’approche quantitative.</p>
-      <p>À la base des exemples obtenus nous avons construit les tableaux comparatives de système de la flexion nominale du polonais et de « système de paradéclinaison » (Gniadek, 1979 : 68).</p>
+      <p>À la base des exemples obtenus nous avons construit les tableaux comparatives de système de la flexion nominale du polonais et de «<quote> système de paradéclinaison </quote>» (Gniadek, 1979 : 68).</p>
       <p rend="bu1">Analyse et résultats</p>
       <p>Entre les exemples analysés nous avons choisi quelques-unes pour chaque cas pour montrer les relations entre le français et le polonais.</p>
       <p rend="bu2">Nominatif</p>
@@ -207,7 +239,7 @@
           </cell>
         </row>
       </table>
-      <p rend="left">Le génitif répond aux questions : de qui ? de quoi ? et en français le nom se combine avec la préposition « de ». Parfois, cette configuration change à cause de la spécificité d’un verbe, comme dans l’exemple : mener à.</p>
+      <p rend="left">Le génitif répond aux questions : de qui ? de quoi ? et en français le nom se combine avec la préposition «<quote> de </quote>». Parfois, cette configuration change à cause de la spécificité d’un verbe, comme dans l’exemple : mener à.</p>
       <p rend="bu2">Datif</p>
       <p rend="left">singulier : <hi rend="b">SYNOWI</hi> komu ? <emph>(à qui ?)</emph></p>
       <table rend="left">
@@ -251,7 +283,7 @@
           </cell>
         </row>
       </table>
-      <p rend="left">Nous voyons que comme l’indique la question posée pour le datif, la plupart des exemples en français est lié avec le préposition « à ».</p>
+      <p rend="left">Nous voyons que comme l’indique la question posée pour le datif, la plupart des exemples en français est lié avec le préposition «<quote> à </quote>».</p>
       <p rend="bu2">Accusatif</p>
       <p rend="left">singulier : <hi rend="b">SYNA</hi> kogo ?<emph> (qui ?)</emph></p>
       <table rend="left">
@@ -467,7 +499,7 @@
       <p rend="i">Aucun résultat pour le mot książki [livres] dans le vocatif.</p>
       <p>On obesrvons les résultats mentionnés, nous pouvons dire que dans deux langues, dans presque chaque cas le vocatif est combiné avec le virgule et très souvent avec le point d’exclamation.</p>
       <p>Voici les deux tableaux résumant deux mots analysés en polonais et en français.</p>
-      <p rend="left">Tableau , « Système de paradéclinaison » (Gniadek, 1979 : 68) français et la flexion nominale du mot SYN [fils].</p>
+      <p rend="left">Tableau , «<quote> Système de paradéclinaison </quote>» (Gniadek, 1979 : 68) français et la flexion nominale du mot SYN [fils].</p>
       <table rend="left">
         <spanGrp type="colgroup">
           <span type="col" style="width: 20%" rend="col1"/>
@@ -483,7 +515,7 @@
           </cell>
         </row>
       </table>
-      <p rend="left">Tableau , « Système de paradéclinaison » (Gniadek, 1979 : 68) français et la flexion nominale du mot KSIĄŻKA [livre].</p>
+      <p rend="left">Tableau , «<quote> Système de paradéclinaison <quote>» (Gniadek, 1979 : 68) français et la flexion nominale du mot KSIĄŻKA [livre].</p>
       <table rend="left">
         <spanGrp type="colgroup">
           <span type="col" style="width: 20%" rend="col1"/>
@@ -505,38 +537,48 @@
       <p>Cette réduction des cas en français et les ambiguïtés présentes en polonais jouent un rôle essentiel dans l’enseignement des langues et provoque de difficultés pour le traitement automatique des langues. La richesse des marquers morphologiques en polonais complique la création des etiquettes morpho-syntaxiques et en conséquance, la traduction automatique de cette langue.</p>
       <p>Ce qui est très intéressant ce sont les effets syntaxiques résultatnt de la flexion nominale en polonais : l’ordre de mot beaucoup plus libre qu’en français (nous pouvons l’observer sur les exemples des phrases observés danc cette étude, mais aussi avec l’absence du pronom sujet et l’absence de l’article sauf le démonstratif.</p>
       <p>L'ordre des mots relativement libre du polonais peut provoquer beaucoup de fautes chez les Polonais qui aprennet le français. En français la place du mot dans la phrase indique son rôle.</p>
-      <p rend="bu1">Bibliographie</p>
-      <p>Brzeska, E. L’Autre communiquant avec la langue maternelle d’Autrui–les fautes des Français qui apprennent le polonais.</p>
-      <p>Dziadkiewicz, A., &amp; Thomas, I. (2007). Bulag nT 32. 2007 Les langues slaves et le français: approches formelles dans les études contrastives LES LANGUES SLAVES ET LE FRANÇAIS: DE LA DIVERGENCE FORMELLE À LA CONVERGENCE SÉMANTIQUE. <emph>Les langues slaves et le français</emph>, (32), 35.</p>
-      <p>Gniadek, S. (1979). <emph>Grammaire contrastive franco-polonaise</emph>. Państwowe Wydawnictwo Naukowe.</p>
-      <p>Watorek, M., Durand, M., &amp; Starosciak, K. (2016). L’impact de l’input et du type de tâche sur la production de la morphologie nominale en polonais par des apprenants francophones débutants. <emph>Discours. Revue de linguistique, psycholinguistique et informatique. A journal of linguistics, psycholinguistics and computational linguistics</emph>, (18).</p>
-      <p rend="bu1">Annexe</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 33%" rend="col1"/>
-          <span type="col" style="width: 33%" rend="col2"/>
-          <span type="col" style="width: 33%" rend="col3"/>
-        </spanGrp>
-        <head>
-          Annexe
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 33%" rend="col1"/>
-          <span type="col" style="width: 33%" rend="col2"/>
-          <span type="col" style="width: 33%" rend="col3"/>
-        </spanGrp>
-        <head>
-          Annexe
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
+
     </body>
+
+    <back>
+      <div type="Bibliographie">
+        <head>Bibliographie</head>
+        <listBibl>
+        <bibl>Brzeska, E. L’Autre communiquant avec la langue maternelle d’Autrui–les fautes des Français qui apprennent le polonais.</bibl>
+        <bibl>Dziadkiewicz, A., &amp; Thomas, I. (2007). Bulag nT 32. 2007 Les langues slaves et le français: approches formelles dans les études contrastives LES LANGUES SLAVES ET LE FRANÇAIS: DE LA DIVERGENCE FORMELLE À LA CONVERGENCE SÉMANTIQUE. <emph>Les langues slaves et le français</emph>, (32), 35.</bibl>
+        <bibl>Gniadek, S. (1979). <emph>Grammaire contrastive franco-polonaise</emph>. Państwowe Wydawnictwo Naukowe.</bibl>
+        <bibl>Watorek, M., Durand, M., &amp; Starosciak, K. (2016). L’impact de l’input et du type de tâche sur la production de la morphologie nominale en polonais par des apprenants francophones débutants. <emph>Discours. Revue de linguistique, psycholinguistique et informatique. A journal of linguistics, psycholinguistics and computational linguistics</emph>, (18).</bibl>
+        </listBibl>
+      </div>
+      <div type="Annexe">
+        <head>Annexe</head>
+        <table rend="left">
+          <spanGrp type="colgroup">
+            <span type="col" style="width: 33%" rend="col1"/>
+            <span type="col" style="width: 33%" rend="col2"/>
+            <span type="col" style="width: 33%" rend="col3"/>
+          </spanGrp>
+          <head>
+            Annexe
+          </head>
+          <row>
+            </cell>
+          </row>
+        </table>
+        <table rend="left">
+          <spanGrp type="colgroup">
+            <span type="col" style="width: 33%" rend="col1"/>
+            <span type="col" style="width: 33%" rend="col2"/>
+            <span type="col" style="width: 33%" rend="col3"/>
+          </spanGrp>
+          <head>
+            Annexe
+          </head>
+          <row>
+            </cell>
+          </row>
+        </table>
+      </div>
+    </back>
   </text>
 </TEI>
