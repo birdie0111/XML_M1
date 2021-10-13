@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2021-10-09T16:15:04+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Titre non renseigné]</title>
+        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">[Auteur non renseigné]</name>
+      </titleStmt>
+      <editionStmt>
+        <edition>Rougemont 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université de Genève</publisher>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>[Source numérisée]</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[AAAA-MM-JJ]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>XX <hi rend="b">XX</hi></p>
+      <p>M2 Parcours Linguistique</p>
+      <p>Multimodalité du langage</p>
+      <p rend="b" xml:lang="en">Part of the message comes in gesture: how people with aphasia convey information in different gesture types as compared with information in their speech</p>
+      <p>Karin van Nipsen, Mieke van Sandt-Koenderman, Kazuki Sekine, Emiel Krahmer &amp; Miranda L. Rose (2017), Aphasiology, 31:9, 1078-1103, DOI: 10.1080/02687038.2017.1301368</p>
+      <p><hi rend="b">Hypothèse</hi> (question à laquelle répond l’article)</p>
+      <p>Cet étude vise à verifier la contribution des gestes dans la communication des personnes avec l’aphasie :</p>
+      <p>1. différents techniques de représantation dans la communication semi-spontannée ;</p>
+      <p>2. quels gestes sont les plus communicatives et le taux des informations portées par les gestes (absentes dans la communication orale).</p>
+      <p rend="b">Fondement théorique</p>
+      <p>Les auteurs mentionnent les plusieurs travaux qui parlent de l’aphasie :</p>
+      <list type="ul" rend="">
+        <item>l’accompagnemant du geste à la parole (Hogrefe et al., 2012 ; Hogrefe et al., 2013 ; Mol, Krahmer &amp; van de Sandt-Koenderman, 2013 ; Protchard et al., 2015) ;</item>
+        <item>les gestes facilitent le discours (Cocks et al., 2011 ; Lanyon &amp; Rose, 2009) ;</item>
+        <item>pantomime - les gestes en l’absence de paroles (Hogrefe et al., 2013 ; van Nispen et al., 2014, 2016 ; Caute et al., 2013 ; Kroenke et al., 2013) ;</item>
+        <item>comment les gestes des personnes aphsiaques contribuent à la communication (de Beer et al., sous presse ; Hogrefe et al., 2013) ;</item>
+        <item>les types des gestes informatives (Behremenn &amp; Penn, 1984 ; Cocks et al., 2013 ; Goodwin, 1995 ; Kemmerer, Chandrasekaran &amp; Tranel, 2007 ; Kong et al., 2015 ; Sekine &amp; Rose, 2013) ;</item>
+        <item>les techniques de representation des gestes (Mol et al., 2013 ; van Foster, Attard &amp; Lanyon, 2013) ;</item>
+      </list>
+      <p rend="b">Méthodologie</p>
+      <p>L'étude est une analyse comparative de 46 personnes aphasiques (différents types d’aphasie) et 9 participants sans endommagées cérébraux pendant la production semi-spontannée (l’utilisation de corpus déjà existant).</p>
+      <p>Les productions des participants ont été annoté dans Elan. L'annotation a été efféctué par deux personnes séparément, toutes les différences ont été discutées et verifiées par la troisième personnes.</p>
+      <p>Les auteurs ont regroupé les gestes dans trois catégories (le schéma basé sur le travail de Coletta et al., 2009) : gestes similaires, gestes supplémentaires, gestes essentiels ; afin d’identifier le taux des gestes essentiels dans les deux groupes examinés.</p>
+      <p rend="b">Résultats</p>
+      <p>Les auteurs ont observé une forte variation individuelle.</p>
+      <p>Un cinquième des gestes de personnes aphasiques ce sont les gestes essentiels (22%) et 70% ce sont les gestes similaires.</p>
+      <p>Les personnes aphasiques produisent plus de gestes essentiels que les personnes sans dommagées cérébrals (qui les produisent qu’une quntité limitée).</p>
+      <p>Les informations essentiels ont été transmis par : pointage, emblèmes et gestes emblématiques.</p>
+      <p rend="b">Discussion / conclusion</p>
+      <p>Les résultats suggèrent qu’une grande proportion des gestes produitent par les personnes aphasiques transmettent les informations indispensables pour comprendre leurs discours.</p>
+      <p>Les auteurs indiquent que les thérapeutes de la parole et du langage pourraient appeler l’attention des interlocuteurs des personnes aphasiques sur l’importance de certains types de gestes produits par les personnes aphasiques pendant la communication.</p>
+      <p rend="b">Commentaire de l’article</p>
+      <p>Je trouve que la quetion posée par les auteurs sur l’importance des gestes des personnes aphasiques est très intéressant et peut être un début d’une nouvelle thérapie.</p>
+      <p>Néanmoins, je pense que le corpus utilisait dans cette recherche n’est pas idéal, même les auteurs indiquent que dans la base de données AphasiaBank manque plusieurs informations nécessaires dans leur étude.</p>
+      <p>De plus, la recherche est une introduction aux prochaines études et du coup plupart de texte est une polémique avec les résultats obtenus et les propositions pour l’avenir, à mon avis, cela fait que les résultats obténus deviennent moins importants.</p>
+    </body>
+  </text>
+</TEI>

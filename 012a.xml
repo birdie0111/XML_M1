@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2021-10-09T16:03:20+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Titre non renseigné]</title>
+        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">[Auteur non renseigné]</name>
+      </titleStmt>
+      <editionStmt>
+        <edition>Rougemont 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université de Genève</publisher>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>[Source numérisée]</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[AAAA-MM-JJ]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p rend="center">La flexion nominale en polonais et ses équivalents français</p>
+      <divGen type="toc"/>
+      <p rend="bu1">Introduction</p>
+      <p>Le français et le polonais sont des langues indo-européennes, la grammaire de la langue française qui fait partie des langues romanes, ainsi que la langue polonaise (langue slave) a hérité le classement de mots (parties de discours) de la grammaire greco-latine. D'autres points communs de ces deux langues ce sont les notions du temps verbal, du nombre et de la personne. Ce qui les éloignent considérablement ce sont surtout le système casuel, l’ordre plus libre des mots et le système aspectuel.</p>
+      <p>Le français a perdu les restes de sa flexion nominale héritée du latin à la fin du Moyen, ce qui l’oppose au polonais qui est une langue à déclinaison. Cette évolution du français a influencé son système syntaxique et l’ordre de mots est devenu plus rigide - position du nom marque une fonction dans la phrase.</p>
+      <p>Dans cette étude, nous voulons comparer le système casuel en polonais et ses équivalents français et présenter des difficultés rencontrées lorsqu’on entreprend une étude comparative de ces deux langues. Nous avons choisi ces langues à cause de ces traces communes qui facilitent la comparaison. De plus, étant la locutrice native du polonais je suis capable de tracer et d’expliquer les nuances présentes dans la traduction des structures analysées.</p>
+      <p>Ce thème nous paraît intéressant non seulement en raison de son intérêt pour la linguistique, mais aussi pour la didactique (surtout la didactique du polonais langue étrangère) et le triatement automatique de ces deux langues. Dans plusieurs études, comme celles de Brzeska, 2015 et Watorek et al., 2016 nous pouvons voir que les apprenants de la langue polonaise ont beaucoup de problème à l’emploi propre des déclinaisons ce qui est dû aux règles morphologiques très riches (marquage entre le sujet et le verbe et aussi entre le substantif et l’adjectif - genre, nombre et cas) et aux nombreuses exceptions.</p>
+      <p>Pour viser les problèmes mentionnés nous observerons les différences et les solutions utilisées dans les traductions de ces deux langues à partir d’un corpus recueille sur le site internet <emph>Opus Corpus</emph>. Nous avons choisi ce logiciel disponible en ligne afin de couvrir un maximum d’exemples d’utilisations possibles. <emph>Opus corpus</emph> donne la possibilité d’obtenir un certain nombre de phrases et leur traduction alignée dans la langue cible choisie à partir d’un mot cherché. Le logiciel propose plusieurs corpus, mais nous avons decidé à utiliser le corpus des sous-titres (OpenSubtitles 2016), car nous visons à construire un tableau des cas fonctionnels à l’oral - les dialogues des films nous donnent cette possibilité.</p>
+      <p>Premierement, nous avons relevé plusieurs phrases proposées et leur traduction en français pour chaque cas du polonais, au singulier et au pluriel. Deuxièmement, nous avons analysé les phrases obtenu afin de relever les exemples les plus fréquents dans les deux langues. Enfin, nous avons essayé de les classer dans un tableau pour mieux comprendre le mode de fonctionnement du français et du polonais.</p>
+      <p rend="bu1">Cadre théorique</p>
+      <p rend="bu2">Le système casuel en polonais</p>
+      <p>Le polonais comme plusieurs langues slaves et le latin est une langue flexionnelle et est doté d’une morphologie verbale et d’une morphologie nominale riche. La déclinaison polonaise est complexe, même pour une langue slave et comprend sept cas (le latin n’avait que six) :</p>
+      <list type="ul" rend="">
+        <item>nominatif - mianownik,</item>
+        <item>génitif - dopełniacz,</item>
+        <item>datif - celownik,</item>
+        <item>accusatif - biernik,</item>
+        <item>instrumental - narzędnik,</item>
+        <item>locatif - miejscownik,</item>
+        <item>vocatif - wołacz.</item>
+      </list>
+      <p>Les cas sont formés à l’aide des terminaisons qui sont ajoutées au radical du nom, de l’adjectif, de participe et de pronoms. Parfois certains mots changent aussi leur radical (par exemple ząb [la dent] – zęba, ta [celle-ci] – tej). Le polonais distingue les trois genres : masculin, féminin et neutre, chacun de ces genres se divise en plusieurs déclinaisons.</p>
+      <p><hi rend="b">Nominatif</hi> (mianownik)</p>
+      <p>On emploie le nominatif avec le sujet ou l’attribut du sujet d’une phrase. Ce cas répond aux questions <hi rend="b"><emph>kto</emph> ?</hi><emph> (qui ?)</emph> et <hi rend="b"><emph>co</emph> ?</hi><emph> (quoi</emph> ?).</p>
+      <p><hi rend="b">Génitif</hi> (dopełniacz)</p>
+      <p>Le génitif est principalement employé pour exprimer la possession, c’est le complément de nom. Ce cas répond aux questions <hi rend="b"><emph>kogo</emph> ?</hi><emph> (de qui ?)</emph> et <hi rend="b"><emph>czego</emph> ?</hi><emph> (de quoi</emph> ?).</p>
+      <p><hi rend="b">Datif</hi> (celownik)</p>
+      <p>Le datif quand on exprime <emph>pour</emph> ou <emph>vers</emph> une personne, c’est le complément d’objet indirect. On utilise le datif sans marquer la préposition <emph>pour</emph>. Ce cas répond aux questions <hi rend="b"><emph>komu</emph> ?</hi><emph> (à qui ?)</emph> et <hi rend="b"><emph>czemu</emph> ?</hi><emph> (à quoi</emph> ?).</p>
+      <p><hi rend="b">Accusatif</hi> (biernik)</p>
+      <p>Accusatif : polonais <emph>biernik</emph>, qui vient de <emph>bierny</emph> (passif). Répond au questions <hi rend="b"><emph>co</emph></hi>(<emph>quoi ?)</emph> et <hi rend="b"><emph>kogo</emph></hi> (<emph>qui</emph> ?)</p>
+      <p><hi rend="b">Instrumental</hi> (narzędnik)</p>
+      <p>Instrumental : polonais <emph>narzędnik</emph>, qui vient de <emph>narzędzie</emph> (instrument, objet). Répond au questions <hi rend="b"><emph>(z) c</emph><emph>zym</emph></hi> <emph>(avec quoi ?)</emph> et <hi rend="b"><emph>(z)</emph><emph>kim</emph></hi> <emph>(avec qui ?)</emph>.</p>
+      <p><hi rend="b">Locatif</hi> (miejscownik)</p>
+      <p>Locatif : polonais <emph>miejscownik</emph>, qui vient de <emph>miejscowy</emph> (local). Répond au questions <hi rend="b"><emph>o czym</emph></hi><emph>(de qui ?)</emph> et <hi rend="b"><emph>o kim</emph></hi> <emph>(de qui ?)</emph>.</p>
+      <p><hi rend="b">Vocatif</hi> (wołacz)</p>
+      <p>Le vocatif est utilisé pour s’adresser à quelqu’un et, très souvent, est separé du reste de la phrase par le virgule.</p>
+      <p>Le tableau ci-dessous résume les formes casuelles et leurs fonctions syntaxiques et sémantiques :</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 25%" rend="col1"/>
+          <span type="col" style="width: 25%" rend="col2"/>
+          <span type="col" style="width: 25%" rend="col3"/>
+          <span type="col" style="width: 25%" rend="col4"/>
+        </spanGrp>
+        <head>
+          les formes casuelles et leurs fonctions syntaxiques et sémantiques
+        </head>
+        <row>
+          <cell rend="left middle">Cas</cell>
+          <cell rend="left middle">Fonction syntaxique</cell>
+          <cell rend="left middle">Fonction sémantique</cell>
+          <cell rend="left middle">Question correspondante</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Nominatif</hi> (Mianownik)</cell>
+          <cell rend="left">sujet</cell>
+          <cell rend="left">agent</cell>
+          <cell rend="left">qui ? / quoi ? 
+<lb/>(kto ? co ?)</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Génitif</hi> (Dopełniacz)</cell>
+          <cell rend="left">complément de nom</cell>
+          <cell rend="left">possesser</cell>
+          <cell rend="left">de qui ? / de quoi 
+<lb/>(kogo ? czego ?)</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Datif</hi> (Celownik)</cell>
+          <cell rend="left">objet indirect</cell>
+          <cell rend="left">bénéficiaire</cell>
+          <cell rend="left">à qui ? / à quoi ? 
+<lb/>(komu ? czemu ?)</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Accusatif</hi> (Biernik)</cell>
+          <cell rend="left">objet direct</cell>
+          <cell rend="left">patient</cell>
+          <cell rend="left">qui ? / quoi ? 
+<lb/>(kogo ? co ?)</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Instrumental</hi> (Narzędnik)</cell>
+          <cell rend="left">circonstant de manière</cell>
+          <cell rend="left">instrument</cell>
+          <cell rend="left">avec qui ? / avec quoi ? (z kim ? z czym ?)</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Locatif</hi> (Miejscownik)</cell>
+          <cell rend="left">circonstant de lieu</cell>
+          <cell rend="left">localisation</cell>
+          <cell rend="left">de qui ? / de quoi ?
+<lb/>(o kim ? o czym ?)</cell>
+        </row>
+        <row>
+          <cell rend="left middle"><hi rend="b">Vocatif</hi> (Wołacz)</cell>
+          <cell cols="2" rend="left">utilisé en s’adressant à quelqu’un</cell>
+          <cell rend="left">-</cell>
+        </row>
+      </table>
+      <p>Lenart, 2006 : Tableau 1.4, p. 63  : Le système flexionnel du polonais et ses fonctions les plus typiques.</p>
+      <p rend="bu2">Le système prépositionelle du français</p>
+      <p>En français, ces déclinaisons n’existent pas.  Les deux cas qu’il avait hérités du latin ont été remplacés par un seul cas et les relations exprimées en latin ou en polonais par les morphèmes flexionnels sont aujourd’hui exprimées par certaines prépositions, en particulier par les prépositions de, à, en qui se sont soudées avec les articles afin de former « les morphèmes préfixés » (Gniadek, 1979 : 67). Même si polonais se sert également des prépositions (idę do teatru – je vais au théâtre ; teatr [théâtre]), il garde toujours tout ses cas.</p>
+      <p rend="bu1">Méthodologie</p>
+      <p rend="default">Comme on part de l’observation du corpus, sans aucun présupposé théorique, on va se servir de  l’approche « corpus-driven ». Des analyses et des conclusions seront faire à partir du corpus des exemples repérés dans le corpus <emph>Opus Corpus</emph> présentés dans l’introduction.</p>
+      <p>Étant consciente de la complexité du système aspectuel de la langues polonaise, nous avons décidé de nous concentrer sur la flexion nominale.</p>
+      <p>En ce qui concerne le recueil des données, cette une étude documentaire contrastive de groupes de textes (sous-titres) bilingues allignés :</p>
+      <list type="ul" rend="">
+        <item>polonais - langue source</item>
+        <item>français - langue cible.</item>
+      </list>
+      <p>Vu que le logiciel <emph>Opus corpus</emph> ne donne pas la possibilité d’un rechcerche des lemmes de mots qui permettrait de réperer tous les cas d’un mot choisi et grace à cela contruire une liste des morphèmes, nous étions obligés de se servir des tableaux de déclinaison disponible en ligne : odmiana.net (ammexe 1 et 2).</p>
+      <p>Les mots sélectionnés pour ce tâche se sont : syn [fils] et książka [livre]. Nous avons sélectionnés ces deux noms, parce qu’ils représentent en polonais deux genre différents : syn - le masculin, książka - le féminin, et appartiennent à différents groupes de mots (répondent aux questions différents : syn - kto ? <emph>(qui ?)</emph>, książka - <emph>co ?(quoi ?)</emph>.</p>
+      <p>Quant à la méthodologie de traitement des données, nous avons opté pour l’approche qualitative puisque le nombre d’exemple analysé (20 pour chaque cas) ne permet pas d’utiliser l’approche quantitative.</p>
+      <p>À la base des exemples obtenus nous avons construit les tableaux comparatives de système de la flexion nominale du polonais et de « système de paradéclinaison » (Gniadek, 1979 : 68).</p>
+      <p rend="bu1">Analyse et résultats</p>
+      <p>Entre les exemples analysés nous avons choisi quelques-unes pour chaque cas pour montrer les relations entre le français et le polonais.</p>
+      <p rend="bu2">Nominatif</p>
+      <p>singulier :<hi rend="b"> SYN</hi> (kto ? - <emph>qui</emph> ?)</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 48%" rend="col1"/>
+          <span type="col" style="width: 52%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">Drań, przez którego mam tę bliznę, nie otrzymał żadnej kary... podczas gdy <hi rend="b">syn</hi> rolnika... dzięki twojemu ojcu został napiętnowany jako bandyta... przed całą wsią.</cell>
+          <cell rend="left">Le salopard, qui m’a balafré le visage, n’a pas été condamné, tandis que moi, orphelin, <hi rend="b">fils</hi> de fermier, j’ai été désigné comme malhonnête, merci à votre père, devant le village tout entier.</cell>
+        </row>
+        <row>
+          <cell rend="left">- Nasz <hi rend="b">syn</hi>... wróciliśmy z...</cell>
+          <cell rend="left">Notre <hi rend="b">fils</hi>... Nous venons de rentrer...</cell>
+        </row>
+      </table>
+      <p rend="left"><lb/>pluriel : <hi rend="b">SYNOWIE</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Mam teraz milion spraw na głowie , a najważniejszą jest Pilar Romero , nie jakaś Karen Geckle i jej <hi rend="b">synowie</hi> .</cell>
+          <cell>J' ai un million de choses à faire en ce moment . Je suis censée être occupée par Pilar Romero , pas Karen Geckle et ses <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left middle">Matki i <hi rend="b">synowie</hi> .</cell>
+          <cell rend="left">Mères et <hi rend="b">fils</hi> .</cell>
+        </row>
+      </table>
+      <p rend="left">singulier :<hi rend="b"> KSIĄŻKA</hi> (co ? - <emph>quoi</emph> ?)</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left middle">Więc ta <hi rend="b">książka</hi> wiele dla ciebie znaczyła .</cell>
+          <cell rend="left">Vous tenez donc à ce <hi rend="b">livre</hi> que vous prétendez haïr ?</cell>
+        </row>
+        <row>
+          <cell rend="left middle">Moja <hi rend="b">książka</hi> została wydana .</cell>
+          <cell rend="left">Mon <hi rend="b">livre</hi> va sortir .</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻKI</hi></p>
+      <p rend="left i">Voici la seule exemple trouvé pendant l’analyse de 60 exemples pour le cas nominatif pluriel d’un mot książka [livre].</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Twoje <hi rend="b">książki</hi> naprawdę łatwo przeglądać .</cell>
+          <cell>- Tes <hi rend="b">livres</hi> se lisent vite .</cell>
+        </row>
+      </table>
+      <p rend="left">Nous pouvons observer une simple relation, le cas nominatif polonais correspond au sujet précédé par les pronoms en français.</p>
+      <p rend="bu2">Génitif</p>
+      <p rend="left">singulier :<hi rend="b"> SYNA</hi> kogo ? <emph>(de qui ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 45%" rend="col1"/>
+          <span type="col" style="width: 55%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">A ja nie mam możliwości aby zagwarantować panu ... bezpieczeństwa osobistego i finansowego dla pana <hi rend="b">syna</hi> ... i wdowy po panu .</cell>
+          <cell rend="left">Malheureusement , si vous insistez pour passer en justice , il n’ est pas en mon pouvoir de vous garantir la sûreté et le confort  <hi rend="b">de</hi></hi> votre <hi rend="b">fils</hi> ... et veuve .</cell>
+        </row>
+        <row>
+          <cell rend="left">Wokół mojego ciała jest może krwi Jego <hi rend="b">syna</hi>.</cell>
+          <cell rend="left">Une mer de sang coulant  <hi rend="b">de</hi></hi> son <hi rend="b">fils</hi> m’ enveloppe.</cell>
+        </row>
+        <row>
+          <cell rend="left">W aktach policyjnych stoi , że w 1898 została aresztowana za zabicie <hi rend="b">syna</hi> .</cell>
+          <cell rend="left">D' après les archives de la police , elle a été arrêtée en 1898 pour le meurtre  <hi rend="b">de</hi></hi> son propre <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left"/>
+          <cell rend="left"/>
+        </row>
+        <row>
+          <cell rend="left"/>
+          <cell rend="left"/>
+        </row>
+        <row>
+          <cell rend="left">- Przyprowadź twojego <hi rend="b">syna</hi> .</cell>
+          <cell rend="left">- Amenez votre <hi rend="b">fils</hi> , Min-Soo Along .</cell>
+        </row>
+        <row>
+          <cell rend="left">Jaka przyszłość czeka naszego <hi rend="b">syna</hi> ?</cell>
+          <cell rend="left">Quel avenir pouvons-nous offrir  <hi rend="b">à</hi></hi> notre <hi rend="b">fils</hi> ?</cell>
+        </row>
+      </table>
+      <p rend="left"><lb/>pluriel : <hi rend="b">SYNÓW</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 48%" rend="col1"/>
+          <span type="col" style="width: 52%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Oto są głowy obu twoich <hi rend="b">synów</hi> i dłoń ze wzgardą odesłana .</cell>
+          <cell>Voici les têtes  <hi rend="b">de</hi></hi> tes deux nobles <hi rend="b">fils</hi> , et voici ta main rendue avec mépris .</cell>
+        </row>
+        <row>
+          <cell rend="middle">Zabiłem zbyt wielu <hi rend="b">synów</hi>... nie mam prawa by mieć własnych.</cell>
+          <cell>J' ai tué trop  <hi rend="b">de</hi></hi> <hi rend="b">fils</hi>. Quel droit aurais-je d’ en avoir ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Jak kobieta, która oddała rewolucji dwóch <hi rend="b">synów</hi> ... może myśleć o zdradzie ?</cell>
+          <cell rend="left">Comment une femme qui a donné deux <hi rend="b">fils</hi> à la révolution ... penserait-elle à trahir ?</cell>
+        </row>
+      </table>
+      <p rend="left">singulier : <hi rend="b">KSIĄŻKI</hi> czego ? <emph>(de quoi ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 56%" rend="col1"/>
+          <span type="col" style="width: 44%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Nie otwieraj tej <hi rend="b">książki</hi>.</cell>
+          <cell>Garde ce <hi rend="b">livre</hi> fermé, écoute ta mère.</cell>
+        </row>
+        <row>
+          <cell rend="middle">To dlaczego była na podpisywaniu <hi rend="b">książki</hi> ?</cell>
+          <cell>Ouais, mais pourquoi était-elle à la dédicace  <hi rend="b">du</hi></hi> <hi rend="b">livre</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="left">A ja zaczęłam mówić jej o porannych mdłościach ... i pokazywałam zdjęcia z <hi rend="b">książki</hi> o rodzeniu.</cell>
+          <cell rend="left">J' ai parlé avec elle des nausées matinales ... et  <hi rend="b">de</hi></hi> mon <hi rend="b">livre</hi> sur la grossesse .</cell>
+        </row>
+        <row>
+          <cell rend="left">Odpowiedź prowadzi do kolejnej <hi rend="b">książki</hi>.</cell>
+          <cell rend="left">La réponse à l’énigme nous mènera  <hi rend="b">à</hi></hi> un autre<hi rend="b"> livre</hi> .</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻEK</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 52%" rend="col1"/>
+          <span type="col" style="width: 48%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Będę bez <hi rend="b">książek</hi> .</cell>
+          <cell>Je n’ aurai pas  <hi rend="b">de</hi></hi> <hi rend="b">livres</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="middle">Dam ci parę <hi rend="b">książek</hi> .</cell>
+          <cell>Je te donne des <hi rend="b">livres</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Reid , jak myślisz ile <hi rend="b">książek</hi> jest wydawanych co roku ?</cell>
+          <cell rend="left">Reid , <hi rend="u">combien</hi>  <hi rend="u"><hi rend="b">de</hi></hi></hi> <hi rend="b">livres</hi> sont publiés chaque année ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Wiesz że czytam jedną z jego <hi rend="b">książek</hi> ?</cell>
+          <cell rend="left">- J' ai lu un de ses <hi rend="b">livres</hi> , tu sais ?</cell>
+        </row>
+      </table>
+      <p rend="left">Le génitif répond aux questions : de qui ? de quoi ? et en français le nom se combine avec la préposition « de ». Parfois, cette configuration change à cause de la spécificité d’un verbe, comme dans l’exemple : mener à.</p>
+      <p rend="bu2">Datif</p>
+      <p rend="left">singulier : <hi rend="b">SYNOWI</hi> komu ? <emph>(à qui ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 54%" rend="col1"/>
+          <span type="col" style="width: 46%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">Dzięki ich <hi rend="b">synowi</hi> .</cell>
+          <cell rend="left">Grâce  <hi rend="b">à</hi></hi> ce <hi rend="b">garçon</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Chce coś powiedzieć <hi rend="b">synowi</hi> .</cell>
+          <cell rend="left">J' aimerais dire quelques mots  <hi rend="b">à</hi></hi> mon <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Daję pańskiemu <hi rend="b">synowi</hi> takie same szanse , jakie miała moja żona .</cell>
+          <cell rend="left">Je donne  <hi rend="b">à</hi></hi> votre <hi rend="b">fils</hi> Ia même chance qu’ eut mon épouse .</cell>
+        </row>
+        <row>
+          <cell rend="left">Jak ja powiem <hi rend="b">synowi</hi> , że jego ojciec jest w niebie ?</cell>
+          <cell rend="left">Comment dire  <hi rend="b">à</hi></hi> mon <hi rend="b">fils</hi> que son pere est au paradis ?</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">SYNOM</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 54%" rend="col1"/>
+          <span type="col" style="width: 46%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Ale tę sławę i tę wolność przekażecie waszym <hi rend="b">synom</hi>.</cell>
+          <cell>Mais cette gloire et cette liberté, vous pourriez la laisser  <hi rend="b">à</hi></hi> vos <hi rend="b">fils</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="middle">Bo żonaci księża zostawiali spadek <hi rend="b">synom</hi>.</cell>
+          <cell>Quand les prêtres mariés mourraient, leur héritage allait  <hi rend="b">à</hi></hi> leur <hi rend="b">fils</hi> aîné.</cell>
+        </row>
+        <row>
+          <cell rend="left">Zrób wszystko, co możesz, aby zapewnić wolność moim <hi rend="b">synom</hi>.</cell>
+          <cell rend="left">Usez de politique pour obtenir la libération  <hi rend="b">de</hi></hi>mes <hi rend="b">fils</hi>.</cell>
+        </row>
+      </table>
+      <p rend="left">singulier : <hi rend="b">KSIĄŻCE</hi> czemu ? <emph>(à quoi ?)</emph></p>
+      <p rend="left i">Sur 60 exemples analysées nous ne pouvions pas réperer une seule qui correspondrair au cas datif du mot książka [livre].</p>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻKOM</hi></p>
+      <p rend="left">tylko 14 resultats, dans 7 ont compris le mot livres dans la traduction francaise</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 56%" rend="col1"/>
+          <span type="col" style="width: 44%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Dzięki <hi rend="b">książkom</hi>?</cell>
+          <cell>Tu connais tes grades , grâce  <hi rend="b">à</hi></hi> ces <hi rend="b">livres</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="middle">Masz coś <hi rend="u">przeciwko</hi> <hi rend="b">książkom</hi>?</cell>
+          <cell>Vous avez quelque chose  <hi rend="u"><hi rend="b">contre</hi></hi></hi> les <hi rend="b">livres</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Znowu poświęcasz się <hi rend="b">książkom</hi>, prawda?</cell>
+          <cell rend="left">Encore perdue  <hi rend="b">dans</hi></hi> vos <hi rend="b">livres</hi> , hein ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Ale ty się nie zmieniłeś, kiedy dzięki swoim <hi rend="b">książkom</hi> zarobiłeś trochę masy.</cell>
+          <cell rend="left">Mais t’as pas changé quand tes <hi rend="b">livres</hi> t’ ont rendu teint aux as .</cell>
+        </row>
+      </table>
+      <p rend="left">Nous voyons que comme l’indique la question posée pour le datif, la plupart des exemples en français est lié avec le préposition « à ».</p>
+      <p rend="bu2">Accusatif</p>
+      <p rend="left">singulier : <hi rend="b">SYNA</hi> kogo ?<emph> (qui ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 51%" rend="col1"/>
+          <span type="col" style="width: 49%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">Ja mam <hi rend="b">syna</hi> .</cell>
+          <cell rend="left">C' est vrai . J' ai encore mon <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Nie mam <hi rend="b">syna</hi> .</cell>
+          <cell rend="left">J' ai pas de <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Jeśli będziemy mieli <hi rend="b">syna</hi> , nazwiemy go Gordon .</cell>
+          <cell rend="left">Si un jour nous avons un <hi rend="b">fils</hi> , nous l’ appellerons Gordon .</cell>
+        </row>
+        <row>
+          <cell rend="left">Znalazłem czaszkę mojego <hi rend="b">syna</hi> , zostało na niej trochę jego mózgu ,</cell>
+          <cell rend="left">On a retrouvé le crâne de mon <hi rend="b">fils</hi> avec des morceaux de cerveau ,</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">SYNÓW</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Nie zabierzesz moich <hi rend="b">synów</hi> .</cell>
+          <cell>Vous ne prendrez pas mes <hi rend="b">garçons</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="middle">Kto oprócz mnie stracił <hi rend="b">synów</hi> ?</cell>
+          <cell>Qui parmi vous a perdu un <hi rend="b">fils</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Obsługa domu i jej dwóch <hi rend="b">synów</hi> .</cell>
+          <cell rend="left">L' équipe de nettoyage et ses deux <hi rend="b">fils</hi>.</cell>
+        </row>
+      </table>
+      <p rend="left">singulier : <hi rend="b">KSIĄŻKĘ</hi> co ? <emph>(quoi ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">- Gdzie położyłaś tę <hi rend="b">książkę</hi> , Mary ?</cell>
+          <cell>- Où as-tu trouvé ce <hi rend="b">livre</hi> , Mary ?</cell>
+        </row>
+        <row>
+          <cell rend="middle">Wyślę wam o tym <hi rend="b">książkę</hi> .</cell>
+          <cell>Il y a un <hi rend="b">livre</hi> que je vais t’envoyer dès que je rentre à Londres .</cell>
+        </row>
+        <row>
+          <cell rend="left">Czytam <hi rend="b">książkę</hi> o języku ciała .</cell>
+          <cell rend="left">J' ai lu un <hi rend="b">livre</hi> sur le langage corporel .</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻKI</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">- Teraz palą <hi rend="b">książki</hi>.</cell>
+          <cell>- Maintenant , si on commence â brûler des <hi rend="b">livres</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="middle">Nie zagroziłeś mi jeszcze , że zabierzesz mi moje <hi rend="b">książki</hi>.</cell>
+          <cell>Vous n’ avez pas menacé de confisquer mes <hi rend="b">livres</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Czytałam <hi rend="b">książki</hi> astrologiczne.</cell>
+          <cell rend="left">Je lis des <hi rend="b">livres</hi> d’ astrologie .</cell>
+        </row>
+      </table>
+      <p rend="left">L'accusatif dans sa moitié repond à la même question que le nominatif : quoi ? et comme nous pouvons le voir à la base des exemples présentés en framnçais il prend les mêmes forme que le nominatif.</p>
+      <p rend="bu2">Instrumental</p>
+      <p rend="left">singulier : <hi rend="b">SYNEM</hi> z kim ? <emph>(avec qui ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 52%" rend="col1"/>
+          <span type="col" style="width: 48%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">Jesteś moim <hi rend="b">synem</hi> .</cell>
+          <cell rend="left">Tu es mon <hi rend="b">fils</hi> ... et un jour , tu porteras ceci .</cell>
+        </row>
+        <row>
+          <cell rend="left">Nie był synem Marii , ale <hi rend="b">synem</hi> Boga .</cell>
+          <cell rend="left">Ce n’ était pas le <hi rend="b">fils</hi> de Marie , mais le fils de Dieu .</cell>
+        </row>
+        <row>
+          <cell rend="left">Możesz poćwiczyć sztuki walki z moim <hi rend="b">synem</hi> .</cell>
+          <cell rend="left">Vous pouvez vous entraîner  <hi rend="b">avec</hi></hi> mon <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Przykro mi , ale mają prawo wiedzieć , co się stało z ich <hi rend="b">synem</hi> .</cell>
+          <cell rend="left">- Ils ont le droit de savoir ,  <hi rend="b">pour</hi></hi> leur <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">George jest <hi rend="b">synem</hi> Lady Mary ?</cell>
+          <cell rend="left">George est le <hi rend="b">fils</hi> de dame Mary ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Jak zamierzałeś ukryć wasze kontakty przed własnym <hi rend="b">synem</hi> ?</cell>
+          <cell rend="left">Comment pensais-tu cacher notre relation  <hi rend="b">à</hi></hi> ton propre <hi rend="b">fils</hi> ?</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">SYNAMI</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">- Jesteśmy jej <hi rend="b">synami</hi>.</cell>
+          <cell>Nous sommes ses <hi rend="b">fils</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="middle">Jesteście <hi rend="b">synami</hi>, córkami i mężami kobiet które zamordowałem.</cell>
+          <cell>Vous êtes les <hi rend="b">fils</hi>, les filles et les époux de celles que j’ ai tuées.</cell>
+        </row>
+        <row>
+          <cell rend="left">- Jesteśmy <hi rend="b">synami</hi> wujka Neda .</cell>
+          <cell rend="left">On est les <hi rend="b">fils</hi> d’ oncle Ned.</cell>
+        </row>
+      </table>
+      <p rend="left">singulier : <hi rend="b">KSIĄŻKĄ</hi> z czym ? <emph>(avec quoi ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Czy pracuje pan obecnie nad jakąś nową <hi rend="b">książką</hi>?</cell>
+          <cell>Préparez-vous un nouveau <hi rend="b">livre</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="middle">W nocy , gdy wszyscy śpią , pracuje nad swoją <hi rend="b">książką</hi>.</cell>
+          <cell>Je me sentais exclue. Il passe ses nuits à travailler  <hi rend="b">à</hi></hi> son <hi rend="b">livre</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="left">Powodzenia z nową <hi rend="b">książką</hi>...</cell>
+          <cell rend="left">Bonne chance  <hi rend="b">avec</hi></hi> votre <hi rend="b">livre</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Pracuję teraz nad nową <hi rend="b">książką</hi>.</cell>
+          <cell rend="left">Je travaille  <hi rend="b">sur</hi></hi> un nouveau <hi rend="b">livre</hi> .</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻKAMI</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Co ty próbujesz zrobić z tymi <hi rend="b">książkami</hi>, wysiadujesz je?</cell>
+          <cell>Que faites-vous ? Vous couvez vos <hi rend="b">livres</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="middle">Oni są <hi rend="b">książkami</hi>.</cell>
+          <cell>Ils sont des <hi rend="b">livres</hi> !</cell>
+        </row>
+        <row>
+          <cell rend="left">Lalusie z <hi rend="b">książkami</hi>.</cell>
+          <cell rend="left">Deux tapettes  <hi rend="b">avec</hi></hi> des <hi rend="b">livres</hi> .</cell>
+        </row>
+      </table>
+      <p>On trouve pas aucune régularité (sauf pour synami [fils au pluriel]). En français le cas instrumental est de divers manières et chaque entre eux dépend du contexte et de la construction du verbe utilisé.</p>
+      <p rend="bu2">Locatif</p>
+      <p rend="left">singulier : <hi rend="b">SYNU</hi> o kim ? <emph>(de qui ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 49%" rend="col1"/>
+          <span type="col" style="width: 51%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">Wciąż ta gadka o ojcu i <hi rend="b">synu</hi>...</cell>
+          <cell rend="left">Tu pousses ce <hi rend="u">numéro</hi>  <hi rend="u"><hi rend="b">de</hi></hi></hi> père et <hi rend="b">fils</hi> entre eux ...</cell>
+        </row>
+        <row>
+          <cell rend="left">Ślady po rękojeści na rodzicach , brak śladów na <hi rend="b">synu</hi> .</cell>
+          <cell rend="left">Des bleus sur les parents , mais pas  <hi rend="b">sur</hi></hi> le <hi rend="b">fils</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Co mówili o moim <hi rend="b">synu</hi> ?</cell>
+          <cell rend="left">Mais qu’ ont-ils dit <hi rend="u">à propos</hi>  <hi rend="u"><hi rend="b">de</hi></hi></hi> mon<hi rend="b"> fils</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="left">(...) więcej o <hi rend="b">synu</hi> Cartierów i jego figlach.</cell>
+          <cell rend="left">A notre retour, plus de détails  <hi rend="b">sur</hi></hi> le <hi rend="b">fils</hi> Cartier et ses flirts.</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">SYNACH</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Żeby mógł o tym pogadać ze swoimi kolegami w knajpie , tak jak ci koledzy mówili mu o swoich <hi rend="b">synach</hi>.</cell>
+          <cell>Il voulait que son fils devienne champion de football ou joueur de base-ball, afin de se vanter devant ses collègues de bistrot, comme ceux-ci se vantaient  <hi rend="b">de</hi></hi> leurs <hi rend="b">fils</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="middle">Wiem , ile z ojca żyje w jego <hi rend="b">synach</hi>.</cell>
+          <cell>J' ai appris comment les pères revivent  <hi rend="b">dans</hi></hi> leurs <hi rend="b">fils</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="left">Są zakochane w swoich <hi rend="b">synach</hi>.</cell>
+          <cell rend="left">- Elles sont amoureuses  <hi rend="b">de</hi></hi> leurs <hi rend="b">fils</hi>.</cell>
+        </row>
+      </table>
+      <p rend="left">singulier : <hi rend="b">KSIĄŻCE</hi> o czym ? <emph>(de quoi ?)</emph></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 53%" rend="col1"/>
+          <span type="col" style="width: 47%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">- Przeczytałeś o tym w <hi rend="b">książce</hi>?</cell>
+          <cell>- Dans les <hi rend="b">livres</hi>.</cell>
+        </row>
+        <row>
+          <cell rend="middle">Znalazłeś w jakiejś <hi rend="b">książce</hi> albo masz taki program komputerowy.</cell>
+          <cell>Tu l’as trouvé  <hi rend="b">dans</hi></hi> un <hi rend="b">livre</hi>, n’est-ce pas, ou utilisé un un ordinateur pour le dessiner?</cell>
+        </row>
+        <row>
+          <cell rend="left">Pomyslałam , że chciałam podyskutować o pana <hi rend="b">książce</hi>, jestem zdumiona wybiegiem...</cell>
+          <cell rend="left">Je croyais vouloir <hi rend="u">discuter</hi>  <hi rend="u"><hi rend="b">de</hi></hi></hi> votre <hi rend="b">livre</hi> . Et je suis sidérée par le subterfuge...</cell>
+        </row>
+        <row>
+          <cell rend="left">Tylko wspomniałam o tym , co poważni krytycy piszą o tej <hi rend="b">książce</hi>.</cell>
+          <cell rend="left">Je t’expliquais seulement ce que des critiques littéraires sérieux ont dit  <hi rend="b">du</hi></hi><hi rend="b"> livre</hi> .</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻKACH</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Nie ma niczego w <hi rend="b">książkach</hi>.</cell>
+          <cell>Il n’ y a rien  <hi rend="b">dans</hi></hi> les <hi rend="b">livres</hi> d’ histoire .</cell>
+        </row>
+        <row>
+          <cell rend="middle">Ona uwielbia romanse w <hi rend="b">książkach</hi>, ale nie w jej rodzinie .</cell>
+          <cell>Elle adore le romantisme  <hi rend="b">dans</hi></hi> ses <hi rend="b">livres</hi> , mais pas dans sa famille .</cell>
+        </row>
+        <row>
+          <cell rend="middle">Czy nie chcesz poznać ludzi , którzy rozmawiają o <hi rend="b">książkach</hi> i słowach ... mają wizje ?</cell>
+          <cell>Ne veux-tu pas rencontrer des gens qui <hi rend="u">parlent</hi>  <hi rend="u"><hi rend="b">de</hi></hi></hi><hi rend="b"> livres</hi> et de mots ... et ont des visions ?</cell>
+        </row>
+      </table>
+      <p>En polonais la question de locatif se compose de deux prépostions différentes :</p>
+      <list type="ul" rend="">
+        <item><emph>o kim ? o czym</emph> ? qui peut être traduites comme <emph>de qui ? de quoi</emph> ? ;</item>
+        <item><emph>w kim ? w czym</emph> ? qui peut être traduites comme <emph>dans qui ? dans quoi ?.</emph></item>
+      </list>
+      <p>Deux prépositions figurant dans les question sont aussi présentes dans les exemples mentionnées au-dessus. Néanmoins, dans la plupart de cas cette situation est lié avec la construction du verbe et de plus, on peut voir aussi d’autre modes d’emplois.</p>
+      <p rend="bu2">Vocatif</p>
+      <p rend="left">singulier : <hi rend="b">SYNU</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="left">Witaj w domu ,</hi> <hi rend="b">synu</hi> .</cell>
+          <cell rend="left">Bienvenue mon <hi rend="b">fils</hi> !</cell>
+        </row>
+        <row>
+          <cell rend="left">Oni go zabili ,</hi> <hi rend="b">synu</hi> .</cell>
+          <cell rend="left">Ils l’ ont tué ,</hi><hi rend="b"> fiston</hi> .</cell>
+        </row>
+        <row>
+          <cell rend="left">Zgadza sie ,</hi> <hi rend="b">synu</hi>?</cell>
+          <cell rend="left">Pas vrai ,</hi><hi rend="b"> fiston</hi> ?</cell>
+        </row>
+        <row>
+          <cell rend="left">Nie do wiary ,</hi> <hi rend="b">synu</hi> .</cell>
+          <cell rend="left">Je ne peux pas croire ça ,</hi> mon <hi rend="b">fils</hi>.</cell>
+        </row>
+      </table>
+      <p rend="left">pluriel : <hi rend="b">SYNOWIE</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+          <span type="col" style="width: 50%" rend="col2"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle">Moi <hi rend="b">synowie</hi> ,</hi> jesteście nadzwyczajni .</cell>
+          <cell>Vous êtes extraordinaires ,</hi> mes <hi rend="b">fils</hi>.</cell>
+        </row>
+      </table>
+      <p rend="left">
+        <emph>Sur 60 cas analysés c’était le seul exemple trouvé.</emph>
+      </p>
+      <p rend="left">singulier : <hi rend="b">KSIĄŻKO</hi></p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 50%" rend="col1"/>
+        </spanGrp>
+        <row>
+          <cell rend="left middle">Chrzań się , </hi>ty głupia <hi rend="b">książko</hi>!</cell>
+          <cell rend="left">
+            <emph>Voyons ça ... Ho , " des frères et des soeurs , 
+            je n’ en ai pas , mais le père de cet homme est le père de mon fils . 
+            "</emph>
+          </cell>
+        </row>
+        <row>
+          <cell rend="left middle">Dobra , </hi><hi rend="b">książki</hi>.</cell>
+          <cell rend="left">OK ,</hi><hi rend="b"> livre</hi> , je ne t’ ai pas lu et tu ne m’ as pas lu , mais on est dans la même galère .</cell>
+        </row>
+        <row>
+          <cell rend="left middle">Dzięki ,</hi> <hi rend="b">książko</hi>!</cell>
+          <cell rend="left">Merci ,</hi><hi rend="b"> bouquin</hi> !</cell>
+        </row>
+      </table>
+      <p>
+        <emph>Les trois exemple visible au-dessus ce sont tous les exemples qu’on trouve dans le sous-corpus OpenSubtitles2016. 
+        De plus, un entre eux est mal traduit.</emph>
+      </p>
+      <p rend="left">pluriel : <hi rend="b">KSIĄŻKI</hi></p>
+      <p rend="i">Aucun résultat pour le mot książki [livres] dans le vocatif.</p>
+      <p>On obesrvons les résultats mentionnés, nous pouvons dire que dans deux langues, dans presque chaque cas le vocatif est combiné avec le virgule et très souvent avec le point d’exclamation.</p>
+      <p>Voici les deux tableaux résumant deux mots analysés en polonais et en français.</p>
+      <p rend="left">Tableau , « Système de paradéclinaison » (Gniadek, 1979 : 68) français et la flexion nominale du mot SYN [fils].</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 20%" rend="col1"/>
+          <span type="col" style="width: 20%" rend="col2"/>
+          <span type="col" style="width: 20%" rend="col3"/>
+          <span type="col" style="width: 20%" rend="col4"/>
+          <span type="col" style="width: 20%" rend="col5"/>
+        </spanGrp>
+        <row>
+          <cell rend="left middle"/>
+          <cell cols="2" rend="left middle">français</cell>
+          <cell cols="2" rend="left middle">polonais</cell>
+        </row>
+        <row>
+          <cell rend="left middle"/>
+          <cell rend="left middle">singulier</cell>
+          <cell rend="left middle">pluriel</cell>
+          <cell rend="left middle">singulier</cell>
+          <cell rend="left middle">pluriel</cell>
+        </row>
+        <row>
+          <cell rend="left middle">nominatif</cell>
+          <cell rend="left middle">fils</cell>
+          <cell rend="left middle">fils</cell>
+          <cell rend="middle">syn</cell>
+          <cell rend="middle">synowie</cell>
+        </row>
+        <row>
+          <cell rend="left middle">génitif</cell>
+          <cell rend="left middle">du fils</cell>
+          <cell rend="left middle">de+les fils</cell>
+          <cell rend="middle">syna</cell>
+          <cell rend="middle">synów</cell>
+        </row>
+        <row>
+          <cell rend="left middle">datif</cell>
+          <cell rend="left middle">au fils</cell>
+          <cell rend="left middle">aux fils</cell>
+          <cell rend="middle">synowi</cell>
+          <cell rend="middle">synom</cell>
+        </row>
+        <row>
+          <cell rend="left middle">accusatif</cell>
+          <cell rend="left middle">fils</cell>
+          <cell rend="left middle">fils</cell>
+          <cell rend="middle">syna</cell>
+          <cell rend="middle">synów</cell>
+        </row>
+        <row>
+          <cell rend="left middle">instrumental</cell>
+          <cell rend="left middle"/>
+          <cell rend="left middle">fils</cell>
+          <cell rend="middle">synem</cell>
+          <cell rend="middle">synami</cell>
+        </row>
+        <row>
+          <cell rend="left middle">locatif</cell>
+          <cell rend="left middle"/>
+          <cell rend="left middle"/>
+          <cell rend="middle">synu</cell>
+          <cell rend="middle">synach</cell>
+        </row>
+        <row>
+          <cell rend="left middle">vocatif</cell>
+          <cell rend="left middle">fils</cell>
+          <cell rend="left middle">fils</cell>
+          <cell rend="middle">synu</cell>
+          <cell rend="middle">synowie</cell>
+        </row>
+      </table>
+      <p rend="left">Tableau , « Système de paradéclinaison » (Gniadek, 1979 : 68) français et la flexion nominale du mot KSIĄŻKA [livre].</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 20%" rend="col1"/>
+          <span type="col" style="width: 20%" rend="col2"/>
+          <span type="col" style="width: 20%" rend="col3"/>
+          <span type="col" style="width: 20%" rend="col4"/>
+          <span type="col" style="width: 20%" rend="col5"/>
+        </spanGrp>
+        <row>
+          <cell rend="left middle"/>
+          <cell cols="2" rend="left middle">français</cell>
+          <cell cols="2" rend="left middle">polonais</cell>
+        </row>
+        <row>
+          <cell rend="left middle"/>
+          <cell rend="left middle">singulier</cell>
+          <cell rend="left middle">pluriel</cell>
+          <cell rend="left middle">singulier</cell>
+          <cell rend="left middle">pluriel</cell>
+        </row>
+        <row>
+          <cell rend="left middle">nominatif</cell>
+          <cell rend="left middle">livre</cell>
+          <cell rend="left middle">livres</cell>
+          <cell rend="left middle">książka</cell>
+          <cell rend="left middle">książki</cell>
+        </row>
+        <row>
+          <cell rend="left middle">génitif</cell>
+          <cell rend="left middle">du livre</cell>
+          <cell rend="left middle">des livres</cell>
+          <cell rend="left middle">książki</cell>
+          <cell rend="left middle">książek</cell>
+        </row>
+        <row>
+          <cell rend="left middle">datif</cell>
+          <cell rend="left middle"/>
+          <cell rend="left middle"/>
+          <cell rend="left middle">książce</cell>
+          <cell rend="left middle">książkom</cell>
+        </row>
+        <row>
+          <cell rend="left middle">accusatif</cell>
+          <cell rend="left middle">livre</cell>
+          <cell rend="left middle">livres</cell>
+          <cell rend="left middle">książkę</cell>
+          <cell rend="left middle">książki</cell>
+        </row>
+        <row>
+          <cell rend="left middle">instrumental</cell>
+          <cell rend="left middle"/>
+          <cell rend="left middle"/>
+          <cell rend="left middle">książką</cell>
+          <cell rend="left middle">książkami</cell>
+        </row>
+        <row>
+          <cell rend="left middle">locatif</cell>
+          <cell rend="left middle"/>
+          <cell rend="left middle"/>
+          <cell rend="left middle">książce</cell>
+          <cell rend="left middle">książkach</cell>
+        </row>
+        <row>
+          <cell rend="left middle">vocatif</cell>
+          <cell rend="left middle">livre</cell>
+          <cell rend="left middle">livres</cell>
+          <cell rend="middle">książko</cell>
+          <cell rend="middle">książki</cell>
+        </row>
+      </table>
+      <p rend="bu1">Conclusion</p>
+      <p>En effet, les résultats obtenus montrent que la réduction des formes de la déclinaison française d’origine latine n’a pas appauvri les possibilités de l’expression du français, mais le système qui l’a remplacé est beaucoup plus libre.</p>
+      <p>En même temps, nous voyons que le système causel polonais est concerné par beaucoup d’ambiguïtés relevant de la polysémie de certains cas (la forme du génitif singulier du mot książka est la même que celle du nominatif et de l’accusatif pluriel).</p>
+      <p>Cette réduction des cas en français et les ambiguïtés présentes en polonais jouent un rôle essentiel dans l’enseignement des langues et provoque de difficultés pour le traitement automatique des langues. La richesse des marquers morphologiques en polonais complique la création des etiquettes morpho-syntaxiques et en conséquance, la traduction automatique de cette langue.</p>
+      <p>Ce qui est très intéressant ce sont les effets syntaxiques résultatnt de la flexion nominale en polonais : l’ordre de mot beaucoup plus libre qu’en français (nous pouvons l’observer sur les exemples des phrases observés danc cette étude, mais aussi avec l’absence du pronom sujet et l’absence de l’article sauf le démonstratif.</p>
+      <p>L'ordre des mots relativement libre du polonais peut provoquer beaucoup de fautes chez les Polonais qui aprennet le français. En français la place du mot dans la phrase indique son rôle.</p>
+      <p rend="bu1">Bibliographie</p>
+      <p>Brzeska, E. L’Autre communiquant avec la langue maternelle d’Autrui–les fautes des Français qui apprennent le polonais.</p>
+      <p>Dziadkiewicz, A., &amp; Thomas, I. (2007). Bulag nT 32. 2007 Les langues slaves et le français: approches formelles dans les études contrastives LES LANGUES SLAVES ET LE FRANÇAIS: DE LA DIVERGENCE FORMELLE À LA CONVERGENCE SÉMANTIQUE. <emph>Les langues slaves et le français</emph>, (32), 35.</p>
+      <p>Gniadek, S. (1979). <emph>Grammaire contrastive franco-polonaise</emph>. Państwowe Wydawnictwo Naukowe.</p>
+      <p>Watorek, M., Durand, M., &amp; Starosciak, K. (2016). L’impact de l’input et du type de tâche sur la production de la morphologie nominale en polonais par des apprenants francophones débutants. <emph>Discours. Revue de linguistique, psycholinguistique et informatique. A journal of linguistics, psycholinguistics and computational linguistics</emph>, (18).</p>
+      <p rend="bu1">Annexe</p>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 33%" rend="col1"/>
+          <span type="col" style="width: 33%" rend="col2"/>
+          <span type="col" style="width: 33%" rend="col3"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle"/>
+          <cell rend="middle"/>
+          <cell rend="middle"/>
+        </row>
+        <row>
+          <cell rend="middle">Mianownik<emph> (kto? co?)</emph>:</cell>
+          <cell rend="middle">syn</cell>
+          <cell rend="middle">synowie</cell>
+        </row>
+        <row>
+          <cell rend="middle">Dopełniacz<emph> (kogo? czego?)</emph>:</cell>
+          <cell rend="middle">syna</cell>
+          <cell rend="middle">synów</cell>
+        </row>
+        <row>
+          <cell rend="middle">Celownik<emph> (komu? czemu?)</emph>:</cell>
+          <cell rend="middle">synowi</cell>
+          <cell rend="middle">synom</cell>
+        </row>
+        <row>
+          <cell rend="middle">Biernik<emph> (kogo? co?)</emph>:</cell>
+          <cell rend="middle">syna</cell>
+          <cell rend="middle">synów</cell>
+        </row>
+        <row>
+          <cell rend="middle">Narzędnik<emph> (z kim? z czym?)</emph>:</cell>
+          <cell rend="middle">synem</cell>
+          <cell rend="middle">synami</cell>
+        </row>
+        <row>
+          <cell rend="middle">Miejscownik<emph> (o kim? o czym?)</emph>:</cell>
+          <cell rend="middle">synu</cell>
+          <cell rend="middle">synach</cell>
+        </row>
+        <row>
+          <cell rend="middle">Wołacz<emph> (o!)</emph>:</cell>
+          <cell rend="middle">synu</cell>
+          <cell rend="middle">synowie</cell>
+        </row>
+      </table>
+      <table rend="left">
+        <spanGrp type="colgroup">
+          <span type="col" style="width: 33%" rend="col1"/>
+          <span type="col" style="width: 33%" rend="col2"/>
+          <span type="col" style="width: 33%" rend="col3"/>
+        </spanGrp>
+        <row>
+          <cell rend="middle"/>
+          <cell rend="middle"/>
+          <cell rend="middle"/>
+        </row>
+        <row>
+          <cell rend="middle">Mianownik<emph> (kto? co?)</emph>:</cell>
+          <cell rend="middle">książka</cell>
+          <cell rend="middle">książki</cell>
+        </row>
+        <row>
+          <cell rend="middle">Dopełniacz<emph> (kogo? czego?)</emph>:</cell>
+          <cell rend="middle">książki</cell>
+          <cell rend="middle">książek</cell>
+        </row>
+        <row>
+          <cell rend="middle">Celownik<emph> (komu? czemu?)</emph>:</cell>
+          <cell rend="middle">książce</cell>
+          <cell rend="middle">książkom</cell>
+        </row>
+        <row>
+          <cell rend="middle">Biernik<emph> (kogo? co?)</emph>:</cell>
+          <cell rend="middle">książkę</cell>
+          <cell rend="middle">książki</cell>
+        </row>
+        <row>
+          <cell rend="middle">Narzędnik<emph> (z kim? z czym?)</emph>:</cell>
+          <cell rend="middle">książką</cell>
+          <cell rend="middle">książkami</cell>
+        </row>
+        <row>
+          <cell rend="middle">Miejscownik<emph> (o kim? o czym?)</emph>:</cell>
+          <cell rend="middle">książce</cell>
+          <cell rend="middle">książkach</cell>
+        </row>
+        <row>
+          <cell rend="middle">Wołacz<emph> (o!)</emph>:</cell>
+          <cell rend="middle">książko</cell>
+          <cell rend="middle">książki</cell>
+        </row>
+      </table>
+    </body>
+  </text>
+</TEI>

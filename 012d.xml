@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2021-10-09T16:15:21+02:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zxx">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>[Titre non renseigné]</title>
+        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">[Auteur non renseigné]</name>
+      </titleStmt>
+      <editionStmt>
+        <edition>Rougemont 2.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université de Genève</publisher>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>[Source numérisée]</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[AAAA-MM-JJ]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p xml:lang="fr">XXXX</p>
+      <p xml:lang="fr">UFR LLASIC - M2 Linguistique</p>
+      <p xml:lang="fr">Sémantique lexicale</p>
+      <p rend="center b" xml:lang="fr">Termes - les cooccurrences spécialisés</p>
+      <p xml:lang="fr">La terminologie est une discipline scientifique dont l’objet d’étude est le terme - l’ unité lexicale qui a un sens (un concept) qui est lié à un domaine de spécialité (L'Homme, 2004).</p>
+      <p xml:lang="fr">La plupart des termes sont de nature nominale (bien visible pendant la consultation d’un dictionnaire spécialisé ou d’une banque de terminologie ; environ 90% des entrées ce sont des noms ou des suntagmes nominaux).</p>
+      <p xml:lang="fr">Je voudrais vous présenter la notion du terme comme un coocurence spécialisé en prenant pour l’exemple le domaine du forage pétrolier.</p>
+      <p xml:lang="fr">Le corpus et les références sur lesquels j’ai travaillé :</p>
+      <p>+ un manuel pour les étudiants qui travaillent sur le secteur pértolier «Géologie du pétrole» - environ 40 000 mots</p>
+      <p xml:lang="fr">+ 7 articles sur les boues de forage - environ 49 000 mots</p>
+      <p>+ liste de vocabulaire pétrolier publié par au <emph>Journal officiel</emph> de la République française par la Commission d’enrichissement de la langue française - environ 300 termes et ces définitions (Vocabulaire du pétrole et du gaz - Délégation générale à la langue française et aux langues de France)</p>
+      <p xml:lang="fr">+ liste des termes en français, anglais et polonais créé à la base d’un manuel anglais-polonais pour les étudiants ingénieurs</p>
+      <p xml:lang="fr">+ base de données : termiumplus</p>
+      <p rend="i" xml:lang="fr">(outils : AntConc, Anatext, TermoStat)</p>
+      <p>En grand partie mon travail est basé sur le livre de Marie Claude L'Homme «La terminologie: principes et techniques».</p>
+      <p xml:lang="fr">On distingue :</p>
+      <p><hi xml:lang="fr" rend="b">Terme simple</hi> - une seule entité graphique; (alourdissant, forage, pétrole)</p>
+      <p><hi xml:lang="fr" rend="b">Terme complexe</hi> - constitué de plusieurs entités graphiques séparées par des blancs ou par des diactriques comme le trait d’union ou l’apostrophe. (collecteur-distributeur - dispositif quicollecte les fluides provenant de plusieurs pipelines et les redistribue dans diverses directions ; conditionnement d’un puits - ensemble des opérations qui permettent de mettre un puits en production)</p>
+      <p xml:lang="fr">Bien sûr, quand on parle de coocurences specialisées on pense à termes complexes.</p>
+      <p>On doit noter que <hi rend="u">les termes ne se distinguent des autres unités lexicales ni sur le plan de la forme, ni dans leur comportement dans les phrases.</hi></p>
+      <p xml:lang="fr">Donc comment dégager les termes dans les textes spécialisés?</p>
+      <p xml:lang="fr">Quand un terminologue cherche des termes il s’appuie sur :</p>
+      <list type="ul" rend="">
+        <item>le domaine de spécialité - paramètre classificateur des sens (point de référence) ;</item>
+        <item>public visé par la description qu’il prépare (un dictionnaire destiné à des spécialistes contient u nombre d’entrées moins élevé aqu’un dictionnaire qui s’adresse à des apprenants ou non-spécialistes ;</item>
+        <item>la fréquence d’apparition (nombre d’occurence de la forme et la répartition dans les textes analysés) des unités lexicales.</item>
+      </list>
+      <p xml:lang="fr">Des prinipaux critères pour identifier les termes :</p>
+      <p xml:lang="fr">a) l’unité lexicale a un sens qui est lié à un domaine de spécilité ; ce dernier est délimité au préalable pour un projet terminographique donné. forage : tige de forage, table de rotation, trépan à diamant</p>
+      <p xml:lang="fr">b) la nature des actants sémantiques - si les actants sont déjà admis comme termes en fonction du critère a, l’unité de sens prédicatif risque fort d’être spécialisée elle-même. forage : filiforage, appareil de forage compacte, forage à long déport, forage rotatif directionnel</p>
+      <p xml:lang="fr">c) la parenté morphologique - nécessairement accompagné d’une parenté sémantique - est un autre indice permettant de confirmer un sens spécialisé : si des termes ont été retenus en vertu des critères a et b, leurs dérivés sont forcément spécialisés. forage - forer, pétrole - pétrolier</p>
+      <p xml:lang="fr">d) autre relation paradigmatique :</p>
+      <list type="ul" rend="">
+        <item>taxinomie (les sens possèdent des composantes communes - les composantes sémantiques de terme «appareil de forage en mer» sont valables pour : «plateforme semi-submersible», «plateforme auto-élévatrice»; «plateforme fixe» ) ;</item>
+        <item>méronymie (qui fait référence à la partie : appareil de forage - tour de forage - table de rotation - tige de forage - trépan.) ;</item>
+        <item>synonymie (deux unités lexicales ont le même concept, outil de forage à diamant, outil à diamant, trépan à diamant - un outil de forage rotatif incrustée de poussière de diamant);</item>
+        <item>antonymie (ici aussi l’incompabilité - relation que partagent les co-hyponymes : forage horizontal et forage vertical).</item>
+      </list>
+      <p rend="left b" xml:lang="fr">Typologie des termes complexes</p>
+      <p rend="left u" xml:lang="fr">Cooccurrences et collocations</p>
+      <p rend="left">
+        <seg rend="tlfcdefinition">Cooccurrence est une apparition d’une unité linguistique dans le discours.</seg>
+      </p>
+      <p rend="left"><seg rend="tlfcdefinition">Collocation</seg> est une expression fondamentalement binaire marquée par la relation argument - prédicat.</p>
+      <p>
+        <hi rend="u">Classification des collocations 
+        selon les catégories grammaticales de leurs constituants</hi>
+      </p>
+      <p xml:lang="fr">nom + adjectif (1) pluie torrentielle</p>
+      <p>nom<hi rend="sub">sujet</hi> + verbe (2) le silence règne</p>
+      <p>verbe + nom<hi rend="sub">objet</hi> (3) prendre une décision</p>
+      <p xml:lang="fr">nom + préposition + nom (4) une bouffée de chaleur</p>
+      <p xml:lang="fr">verbe + préposition + nom (5) mettre quelque chose en doute</p>
+      <p xml:lang="fr">verbe + adverbe (6) applaudir chaleureusement</p>
+      <p xml:lang="fr">adjectif + adverbe (7) grièvement blessé</p>
+      <p rend="i" xml:lang="fr">Typologie des collocations d’après Hausmann (cité par : Netzlaff, 2004)</p>
+      <p rend="u" xml:lang="fr">Typologie des termes complexes - Termostat, Géologie du pétrole</p>
+      <p rend="left"><hi xml:lang="fr" rend="b">Nom Adjectif</hi> = <ref target="javascript:toggle('Nom%20Adjectif');">915 (42 %)</ref> <emph xml:lang="fr"> système pétrolier, matière organique, bassin sédimentaire, gaz naturel, compagnie pétrolier</emph>
+<lb/><hi xml:lang="fr" rend="b">Nom Préposition Nom</hi> = <ref target="javascript:toggle('Nom%20Préposition%20Nom’);">507 (23 %)</ref> <emph xml:lang="fr">pression de entrée, hydrate de gaz, atome de carbone, pression de pore, puits de exploration, présence de hydrocarbure, taux de sédimentation</emph>
+<lb/><hi xml:lang="fr" rend="b">Nom Nom</hi> = <ref target="javascript:toggle('Nom%20Nom’);">154 (7 %)</ref> <emph xml:lang="fr">drill stem, méthode géophysique, gas oil, phase gaz, phase vapeur</emph>
+<lb/><hi xml:lang="fr" rend="b">Nom Préposition Nom Adjectif</hi> = <ref target="javascript:toggle('Nom%20Préposition%20Nom%20Adjectif');">152 (7 %)</ref> <emph xml:lang="fr">notion de moment critique, niveau de eau libre, méthode de interprétation géopétrolière, apport de matière organique, apport de eau doux</emph></p>
+      <p rend="left"><hi xml:lang="fr" rend="b">Nom PPAdj</hi> = <ref target="javascript:toggle('Nom%20PPAdj’);">135 (6 %)</ref> <emph xml:lang="fr">gaz associé, bassin considéré, hydrocarbure saturés, alcane ramifié, système drainé</emph>
+<lb/><hi xml:lang="fr" rend="b">Nom Adjectif Adjectif</hi> = <ref target="javascript:toggle('Nom%20Adjectif%20Adjectif');">88 (4 %)</ref> <emph xml:lang="fr">fracturation hydraulique naturel, matière organique vivant, matière organique terrestre, profil sismique vertical</emph></p>
+      <p rend="u" xml:lang="fr">Les collocations selon les terminographes</p>
+      <p xml:lang="fr">Le groupe composé d’un terme et d’une autre unité lexicale ayant des affinités sémantiques et préférantielles de cette nature est fréquemment appelé collocation.</p>
+      <p xml:lang="fr">Les lexicologues réservent l’expression aux associations lexicalement contraintes, ce pendant les groupes qui intéressent les terminographes sont souvent plus libres.</p>
+      <p xml:lang="fr">Ces combinaisons sont composées d’un terme de nature nominale et d’un autre terme appartenant à la catégorie de l’adjectif, du verbe et du nom comme :</p>
+      <p xml:lang="fr">nom + verbe (ou verbe + nom, verbe +prép+nom) :</p>
+      <p xml:lang="fr">produire du pétrole, gaz hydrocarbonés se forme; réservoir contient</p>
+      <p xml:lang="fr">nom + adjectif :</p>
+      <p xml:lang="fr">grand champ (de gaz), différent produit, quantité importante</p>
+      <p xml:lang="fr">nom+ (prép.) + nom :</p>
+      <p xml:lang="fr">pression de pore, traitrement de données, production du gisement</p>
+      <p xml:lang="fr">La forme du terme ne suffit pas à le distinguer d’autres unités lexicales. Il existe des formes qui se retrouvent seulement dans certains domaines spécialisés (par exemple, des termes de biologie font appel à des formants grecs ou latins), mais c’est très rare.</p>
+      <p><hi xml:lang="fr" rend="b">Ce qui est très important</hi> : <hi rend="u">les termes complexes ont souvent un sens compositionnel, c’est-à-dire qu’on peut en comprendre le sens en cumulant les sens des unités simples qui les composent.</hi></p>
+      <p rend="lmarg1" xml:lang="fr">Les dictionnaires généraux ne traitent pas les unités complexes de la même manière que les dictionnaires spécialisés. Les rares unités complexes répertoriées dans les premiers ont un sens qui ne résulte pas directement du cumul des sens des unités qui les constituent (ex. pomme de terre, chemin de fer) et c’est en vertu de leur non-compostionalité qu’elles accèdent au statut d’unités lexicales.</p>
+      <p xml:lang="fr">Toutefois, les textes spécialisés présentent des particularités que peut exploiter le terminographe :</p>
+      <p>1. Le terme a <hi rend="u">un sens compositionnel</hi>, par exemple :</p>
+      <p rend="left lmarg2 b color_276682" xml:lang="fr">chaîne du gaz naturel liquéfié</p>
+      <p rend="lmarg2" xml:lang="fr">Ensemble des installations et des opérations permettant de produire du gaz naturel, de le liquéfier et de le transférer depuis le champ d’extraction jusqu’au lieu de son utilisation.</p>
+      <p rend="lmarg2 b color_276682" xml:lang="fr">procédé de transformation de la biomasse en liquide</p>
+      <p rend="lmarg2">Procédé de synthèse d’hydrocarbures liquides à partir de produits de la biomasse.</p>
+      <p rend="left">2. Normalisation entraîne <hi rend="u">une régularité et une fréquence</hi> de certains modes de formation dans les domaines spécialisés.</p>
+      <p rend="lmarg2" xml:lang="fr">l’objet d’un protocole (les noms données aux espèces botaniques ou animales ou aux composés chimiques) - les nouveaux termes doivent respecter des règles sur lesquelles des spécialistes se sont entendus</p>
+      <p>Je veux juste ajouter que ce qui m’intéresse aussi ce sont <hi rend="u">les équivalences</hi>. C'est une relation qui engage deux termes appartenant à des langues différentes et qui ont le même sens.</p>
+      <p xml:lang="fr">équivalents dans une fiche terminologique</p>
+      <p xml:lang="fr">FR <space rend="tab">    </space>forage rotatif</p>
+      <p>EN <space rend="tab">    </space>rotary drilling</p>
+      <p>PL <space rend="tab">    </space>wiercenie metodą obrotową (wiercenie obrotowe)</p>
+      <p>DEF <space rend="tab">    </space>Technique de forage dans laquelle le mouvement de rotation du trépan est transmis <space rend="tab">    </space>depuis la surface par un arbre constitué de tiges creuses vissées bout à bout et dans <space rend="tab">    </space>lesquelles circule un fluide.</p>
+    </body>
+  </text>
+</TEI>
