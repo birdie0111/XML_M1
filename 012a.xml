@@ -38,10 +38,11 @@
           <docTitle>
             <titlePart type="main">Titre non renseigné (012a)</titlePart>
           </docTitle>
-          <byline><docAuthor>Auteur non renseigné</docAuthor></byline>
+          <byline>
+            <docAuthor>Auteur non renseigné</docAuthor>
+          </byline>
           <docImprint>
-            <lb/>Université de Genève
-          </docImprint>
+            <lb/>Université de Genève </docImprint>
         </titlePage>
       </div>
       <div type="table">
@@ -65,478 +66,644 @@
       </div>
     </front>
     <body>
-      <p rend="center">La flexion nominale en polonais et ses équivalents français</p>
+
+      <head rend="center">La flexion nominale en polonais et ses équivalents français</head>
       <divGen type="toc"/>
-      <p rend="bu1">Introduction</p>
-      <p>Le français et le polonais sont des langues indo-européennes, la grammaire de la langue française qui fait partie des langues romanes, ainsi que la langue polonaise (langue slave) a hérité le classement de mots (parties de discours) de la grammaire greco-latine. D'autres points communs de ces deux langues ce sont les notions du temps verbal, du nombre et de la personne. Ce qui les éloignent considérablement ce sont surtout le système casuel, l’ordre plus libre des mots et le système aspectuel.</p>
-      <p>Le français a perdu les restes de sa flexion nominale héritée du latin à la fin du Moyen, ce qui l’oppose au polonais qui est une langue à déclinaison. Cette évolution du français a influencé son système syntaxique et l’ordre de mots est devenu plus rigide - position du nom marque une fonction dans la phrase.</p>
-      <p>Dans cette étude, nous voulons comparer le système casuel en polonais et ses équivalents français et présenter des difficultés rencontrées lorsqu’on entreprend une étude comparative de ces deux langues. Nous avons choisi ces langues à cause de ces traces communes qui facilitent la comparaison. De plus, étant la locutrice native du polonais je suis capable de tracer et d’expliquer les nuances présentes dans la traduction des structures analysées.</p>
-      <p>Ce thème nous paraît intéressant non seulement en raison de son intérêt pour la linguistique, mais aussi pour la didactique (surtout la didactique du polonais langue étrangère) et le triatement automatique de ces deux langues. Dans plusieurs études, comme celles de Brzeska, 2015 et Watorek et al., 2016 nous pouvons voir que les apprenants de la langue polonaise ont beaucoup de problème à l’emploi propre des déclinaisons ce qui est dû aux règles morphologiques très riches (marquage entre le sujet et le verbe et aussi entre le substantif et l’adjectif - genre, nombre et cas) et aux nombreuses exceptions.</p>
-      <p>Pour viser les problèmes mentionnés nous observerons les différences et les solutions utilisées dans les traductions de ces deux langues à partir d’un corpus recueille sur le site internet <emph>Opus Corpus</emph>. Nous avons choisi ce logiciel disponible en ligne afin de couvrir un maximum d’exemples d’utilisations possibles. <emph>Opus corpus</emph> donne la possibilité d’obtenir un certain nombre de phrases et leur traduction alignée dans la langue cible choisie à partir d’un mot cherché. Le logiciel propose plusieurs corpus, mais nous avons decidé à utiliser le corpus des sous-titres (OpenSubtitles 2016), car nous visons à construire un tableau des cas fonctionnels à l’oral - les dialogues des films nous donnent cette possibilité.</p>
-      <p>Premierement, nous avons relevé plusieurs phrases proposées et leur traduction en français pour chaque cas du polonais, au singulier et au pluriel. Deuxièmement, nous avons analysé les phrases obtenu afin de relever les exemples les plus fréquents dans les deux langues. Enfin, nous avons essayé de les classer dans un tableau pour mieux comprendre le mode de fonctionnement du français et du polonais.</p>
-      <p rend="bu1">Cadre théorique</p>
-      <p rend="bu2">Le système casuel en polonais</p>
-      <p>Le polonais comme plusieurs langues slaves et le latin est une langue flexionnelle et est doté d’une morphologie verbale et d’une morphologie nominale riche. La déclinaison polonaise est complexe, même pour une langue slave et comprend sept cas (le latin n’avait que six) :</p>
-      <list type="ul" rend="">
-        <item>nominatif - mianownik,</item>
-        <item>génitif - dopełniacz,</item>
-        <item>datif - celownik,</item>
-        <item>accusatif - biernik,</item>
-        <item>instrumental - narzędnik,</item>
-        <item>locatif - miejscownik,</item>
-        <item>vocatif - wołacz.</item>
-      </list>
-      <p>Les cas sont formés à l’aide des terminaisons qui sont ajoutées au radical du nom, de l’adjectif, de participe et de pronoms. Parfois certains mots changent aussi leur radical (par exemple ząb [la dent] – zęba, ta [celle-ci] – tej). Le polonais distingue les trois genres : masculin, féminin et neutre, chacun de ces genres se divise en plusieurs déclinaisons.</p>
-      <p><hi rend="b">Nominatif</hi> (mianownik)</p>
-      <p>On emploie le nominatif avec le sujet ou l’attribut du sujet d’une phrase. Ce cas répond aux questions <hi rend="b"><emph>kto</emph> ?</hi><emph> (qui ?)</emph> et <hi rend="b"><emph>co</emph> ?</hi><emph> (quoi</emph> ?).</p>
-      <p><hi rend="b">Génitif</hi> (dopełniacz)</p>
-      <p>Le génitif est principalement employé pour exprimer la possession, c’est le complément de nom. Ce cas répond aux questions <hi rend="b"><emph>kogo</emph> ?</hi><emph> (de qui ?)</emph> et <hi rend="b"><emph>czego</emph> ?</hi><emph> (de quoi</emph> ?).</p>
-      <p><hi rend="b">Datif</hi> (celownik)</p>
-      <p>Le datif quand on exprime <emph>pour</emph> ou <emph>vers</emph> une personne, c’est le complément d’objet indirect. On utilise le datif sans marquer la préposition <emph>pour</emph>. Ce cas répond aux questions <hi rend="b"><emph>komu</emph> ?</hi><emph> (à qui ?)</emph> et <hi rend="b"><emph>czemu</emph> ?</hi><emph> (à quoi</emph> ?).</p>
-      <p><hi rend="b">Accusatif</hi> (biernik)</p>
-      <p>Accusatif : polonais <emph>biernik</emph>, qui vient de <emph>bierny</emph> (passif). Répond au questions <hi rend="b"><emph>co</emph></hi>(<emph>quoi ?)</emph> et <hi rend="b"><emph>kogo</emph></hi> (<emph>qui</emph> ?)</p>
-      <p><hi rend="b">Instrumental</hi> (narzędnik)</p>
-      <p>Instrumental : polonais <emph>narzędnik</emph>, qui vient de <emph>narzędzie</emph> (instrument, objet). Répond au questions <hi rend="b"><emph>(z) c</emph><emph>zym</emph></hi> <emph>(avec quoi ?)</emph> et <hi rend="b"><emph>(z)</emph><emph>kim</emph></hi> <emph>(avec qui ?)</emph>.</p>
-      <p><hi rend="b">Locatif</hi> (miejscownik)</p>
-      <p>Locatif : polonais <emph>miejscownik</emph>, qui vient de <emph>miejscowy</emph> (local). Répond au questions <hi rend="b"><emph>o czym</emph></hi><emph>(de qui ?)</emph> et <hi rend="b"><emph>o kim</emph></hi> <emph>(de qui ?)</emph>.</p>
-      <p><hi rend="b">Vocatif</hi> (wołacz)</p>
-      <p>Le vocatif est utilisé pour s’adresser à quelqu’un et, très souvent, est separé du reste de la phrase par le virgule.</p>
-      <p>Le tableau ci-dessous résume les formes casuelles et leurs fonctions syntaxiques et sémantiques :</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 25%" rend="col1"/>
-          <span type="col" style="width: 25%" rend="col2"/>
-          <span type="col" style="width: 25%" rend="col3"/>
-          <span type="col" style="width: 25%" rend="col4"/>
-        </spanGrp>
-        <head>
-          les formes casuelles et leurs fonctions syntaxiques et sémantiques
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p>Lenart, 2006 : Tableau 1.4, p. 63  : Le système flexionnel du polonais et ses fonctions les plus typiques.</p>
-      <p rend="bu2">Le système prépositionelle du français</p>
-      <p>En français, ces déclinaisons n’existent pas.  Les deux cas qu’il avait hérités du latin ont été remplacés par un seul cas et les relations exprimées en latin ou en polonais par les morphèmes flexionnels sont aujourd’hui exprimées par certaines prépositions, en particulier par les prépositions de, à, en qui se sont soudées avec les articles afin de former « <quote>les morphèmes préfixés </quote>» (Gniadek, 1979 : 67). Même si polonais se sert également des prépositions (idę do teatru – je vais au théâtre ; teatr [théâtre]), il garde toujours tout ses cas.</p>
-      <p rend="bu1">Méthodologie</p>
-      <p rend="default">Comme on part de l’observation du corpus, sans aucun présupposé théorique, on va se servir de  l’approche « corpus-driven ». Des analyses et des conclusions seront faire à partir du corpus des exemples repérés dans le corpus <emph>Opus Corpus</emph> présentés dans l’introduction.</p>
-      <p>Étant consciente de la complexité du système aspectuel de la langues polonaise, nous avons décidé de nous concentrer sur la flexion nominale.</p>
-      <p>En ce qui concerne le recueil des données, cette une étude documentaire contrastive de groupes de textes (sous-titres) bilingues allignés :</p>
-      <list type="ul" rend="">
-        <item>polonais - langue source</item>
-        <item>français - langue cible.</item>
-      </list>
-      <p>Vu que le logiciel <emph>Opus corpus</emph> ne donne pas la possibilité d’un rechcerche des lemmes de mots qui permettrait de réperer tous les cas d’un mot choisi et grace à cela contruire une liste des morphèmes, nous étions obligés de se servir des tableaux de déclinaison disponible en ligne : odmiana.net (ammexe 1 et 2).</p>
-      <p>Les mots sélectionnés pour ce tâche se sont : syn [fils] et książka [livre]. Nous avons sélectionnés ces deux noms, parce qu’ils représentent en polonais deux genre différents : syn - le masculin, książka - le féminin, et appartiennent à différents groupes de mots (répondent aux questions différents : syn - kto ? <emph>(qui ?)</emph>, książka - <emph>co ?(quoi ?)</emph>.</p>
-      <p>Quant à la méthodologie de traitement des données, nous avons opté pour l’approche qualitative puisque le nombre d’exemple analysé (20 pour chaque cas) ne permet pas d’utiliser l’approche quantitative.</p>
-      <p>À la base des exemples obtenus nous avons construit les tableaux comparatives de système de la flexion nominale du polonais et de «<quote> système de paradéclinaison </quote>» (Gniadek, 1979 : 68).</p>
-      <p rend="bu1">Analyse et résultats</p>
-      <p>Entre les exemples analysés nous avons choisi quelques-unes pour chaque cas pour montrer les relations entre le français et le polonais.</p>
-      <p rend="bu2">Nominatif</p>
-      <p>singulier :<hi rend="b"> SYN</hi> (kto ? - <emph>qui</emph> ?)</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 48%" rend="col1"/>
-          <span type="col" style="width: 52%" rend="col2"/>
-        </spanGrp>
-        <head>singulier SYN Nominatif</head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left"><lb/>pluriel : <hi rend="b">SYNOWIE</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          plurier SYNOWIE Nominatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">singulier :<hi rend="b"> KSIĄŻKA</hi> (co ? - <emph>quoi</emph> ?)</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier KSIĄŻKA Nominatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻKI</hi></p>
-      <p rend="left i">Voici la seule exemple trouvé pendant l’analyse de 60 exemples pour le cas nominatif pluriel d’un mot książka [livre].</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          plurier KSIĄŻKI Nominatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">Nous pouvons observer une simple relation, le cas nominatif polonais correspond au sujet précédé par les pronoms en français.</p>
-      <p rend="bu2">Génitif</p>
-      <p rend="left">singulier :<hi rend="b"> SYNA</hi> kogo ? <emph>(de qui ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 45%" rend="col1"/>
-          <span type="col" style="width: 55%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier SYNA kogo? (de qui?) Génitif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left"><lb/>pluriel : <hi rend="b">SYNÓW</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 48%" rend="col1"/>
-          <span type="col" style="width: 52%" rend="col2"/>
-        </spanGrp>
-        <head>
-          plurier SYNÓW Génitif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">singulier : <hi rend="b">KSIĄŻKI</hi> czego ? <emph>(de quoi ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 56%" rend="col1"/>
-          <span type="col" style="width: 44%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier KSIĄŻKI czego ? (de quoi ?) Génitif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻEK</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 52%" rend="col1"/>
-          <span type="col" style="width: 48%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : KSIĄŻEK Génitif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">Le génitif répond aux questions : de qui ? de quoi ? et en français le nom se combine avec la préposition «<quote> de </quote>». Parfois, cette configuration change à cause de la spécificité d’un verbe, comme dans l’exemple : mener à.</p>
-      <p rend="bu2">Datif</p>
-      <p rend="left">singulier : <hi rend="b">SYNOWI</hi> komu ? <emph>(à qui ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 54%" rend="col1"/>
-          <span type="col" style="width: 46%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier : SYNOWI komu ? (à qui ?) Datif
-        </head>
-        <row>
-         </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">SYNOM</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 54%" rend="col1"/>
-          <span type="col" style="width: 46%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : SYNOM Datif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">singulier : <hi rend="b">KSIĄŻCE</hi> czemu ? <emph>(à quoi ?)</emph></p>
-      <p rend="left i">Sur 60 exemples analysées nous ne pouvions pas réperer une seule qui correspondrair au cas datif du mot książka [livre].</p>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻKOM</hi></p>
-      <p rend="left">tylko 14 resultats, dans 7 ont compris le mot livres dans la traduction francaise</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 56%" rend="col1"/>
-          <span type="col" style="width: 44%" rend="col2"/>
-        </spanGrp>
-        <head>
-          mot livres compris dans la traduction francaise Datif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">Nous voyons que comme l’indique la question posée pour le datif, la plupart des exemples en français est lié avec le préposition «<quote> à </quote>».</p>
-      <p rend="bu2">Accusatif</p>
-      <p rend="left">singulier : <hi rend="b">SYNA</hi> kogo ?<emph> (qui ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 51%" rend="col1"/>
-          <span type="col" style="width: 49%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier SYNA kogo (qui?) Accusatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">SYNÓW</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : SYNÓW Accusatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">singulier : <hi rend="b">KSIĄŻKĘ</hi> co ? <emph>(quoi ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-        </spanGrp>
-        <head>
-          singulier : KSIĄŻKĘ co ? (quoi?) Accusatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻKI</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : KSIĄŻKI Accusatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">L'accusatif dans sa moitié repond à la même question que le nominatif : quoi ? et comme nous pouvons le voir à la base des exemples présentés en framnçais il prend les mêmes forme que le nominatif.</p>
-      <p rend="bu2">Instrumental</p>
-      <p rend="left">singulier : <hi rend="b">SYNEM</hi> z kim ? <emph>(avec qui ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 52%" rend="col1"/>
-          <span type="col" style="width: 48%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier SYNEM z kim? (avec qui?) Instrumental
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">SYNAMI</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : SYNAMI Instrumental
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">singulier : <hi rend="b">KSIĄŻKĄ</hi> z czym ? <emph>(avec quoi ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier KSIĄŻKĄ z czym ? (avec quoi ?) Instrumental
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻKAMI</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : KSIĄŻKAMI Instrumental
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p>On trouve pas aucune régularité (sauf pour synami [fils au pluriel]). En français le cas instrumental est de divers manières et chaque entre eux dépend du contexte et de la construction du verbe utilisé.</p>
-      <p rend="bu2">Locatif</p>
-      <p rend="left">singulier : <hi rend="b">SYNU</hi> o kim ? <emph>(de qui ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 49%" rend="col1"/>
-          <span type="col" style="width: 51%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier SYNU o kim? (de qui?) Locatif
-        </head>
-        <row>
-         </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">SYNACH</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel SYNACH Locatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">singulier : <hi rend="b">KSIĄŻCE</hi> o czym ? <emph>(de quoi ?)</emph></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 53%" rend="col1"/>
-          <span type="col" style="width: 47%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier KSIĄŻCE o czym? (de quoi?) Locatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻKACH</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-        </spanGrp>
-        <head>
-          pluriel : KSIĄŻKACH Locatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p>En polonais la question de locatif se compose de deux prépostions différentes :</p>
-      <list type="ul" rend="">
-        <item><emph>o kim ? o czym</emph> ? qui peut être traduites comme <emph>de qui ? de quoi</emph> ? ;</item>
-        <item><emph>w kim ? w czym</emph> ? qui peut être traduites comme <emph>dans qui ? dans quoi ?.</emph></item>
-      </list>
-      <p>Deux prépositions figurant dans les question sont aussi présentes dans les exemples mentionnées au-dessus. Néanmoins, dans la plupart de cas cette situation est lié avec la construction du verbe et de plus, on peut voir aussi d’autre modes d’emplois.</p>
-      <p rend="bu2">Vocatif</p>
-      <p rend="left">singulier : <hi rend="b">SYNU</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          singulier SYNU Vocatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">pluriel : <hi rend="b">SYNOWIE</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-          <span type="col" style="width: 50%" rend="col2"/>
-        </spanGrp>
-        <head>
-          pluriel : SYNOWIE Vocatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">
-        <emph>Sur 60 cas analysés c’était le seul exemple trouvé.</emph>
-      </p>
-      <p rend="left">singulier : <hi rend="b">KSIĄŻKO</hi></p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 50%" rend="col1"/>
-        </spanGrp>
-        <head>
-          singulier KSIĄŻKO Vocatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p>
-        <emph>Les trois exemple visible au-dessus ce sont tous les exemples qu’on trouve dans le sous-corpus OpenSubtitles2016. 
-        De plus, un entre eux est mal traduit.</emph>
-      </p>
-      <p rend="left">pluriel : <hi rend="b">KSIĄŻKI</hi></p>
-      <p rend="i">Aucun résultat pour le mot książki [livres] dans le vocatif.</p>
-      <p>On obesrvons les résultats mentionnés, nous pouvons dire que dans deux langues, dans presque chaque cas le vocatif est combiné avec le virgule et très souvent avec le point d’exclamation.</p>
-      <p>Voici les deux tableaux résumant deux mots analysés en polonais et en français.</p>
-      <p rend="left">Tableau , «<quote> Système de paradéclinaison </quote>» (Gniadek, 1979 : 68) français et la flexion nominale du mot SYN [fils].</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 20%" rend="col1"/>
-          <span type="col" style="width: 20%" rend="col2"/>
-          <span type="col" style="width: 20%" rend="col3"/>
-          <span type="col" style="width: 20%" rend="col4"/>
-          <span type="col" style="width: 20%" rend="col5"/>
-        </spanGrp>
-        <head>
-          pluriel : KSIĄŻKI Vocatif
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="left">Tableau , «<quote> Système de paradéclinaison <quote>» (Gniadek, 1979 : 68) français et la flexion nominale du mot KSIĄŻKA [livre].</p>
-      <table rend="left">
-        <spanGrp type="colgroup">
-          <span type="col" style="width: 20%" rend="col1"/>
-          <span type="col" style="width: 20%" rend="col2"/>
-          <span type="col" style="width: 20%" rend="col3"/>
-          <span type="col" style="width: 20%" rend="col4"/>
-          <span type="col" style="width: 20%" rend="col5"/>
-        </spanGrp>
-        <head>
-          Système de paradéclinaison
-        </head>
-        <row>
-          </cell>
-        </row>
-      </table>
-      <p rend="bu1">Conclusion</p>
-      <p>En effet, les résultats obtenus montrent que la réduction des formes de la déclinaison française d’origine latine n’a pas appauvri les possibilités de l’expression du français, mais le système qui l’a remplacé est beaucoup plus libre.</p>
-      <p>En même temps, nous voyons que le système causel polonais est concerné par beaucoup d’ambiguïtés relevant de la polysémie de certains cas (la forme du génitif singulier du mot książka est la même que celle du nominatif et de l’accusatif pluriel).</p>
-      <p>Cette réduction des cas en français et les ambiguïtés présentes en polonais jouent un rôle essentiel dans l’enseignement des langues et provoque de difficultés pour le traitement automatique des langues. La richesse des marquers morphologiques en polonais complique la création des etiquettes morpho-syntaxiques et en conséquance, la traduction automatique de cette langue.</p>
-      <p>Ce qui est très intéressant ce sont les effets syntaxiques résultatnt de la flexion nominale en polonais : l’ordre de mot beaucoup plus libre qu’en français (nous pouvons l’observer sur les exemples des phrases observés danc cette étude, mais aussi avec l’absence du pronom sujet et l’absence de l’article sauf le démonstratif.</p>
-      <p>L'ordre des mots relativement libre du polonais peut provoquer beaucoup de fautes chez les Polonais qui aprennet le français. En français la place du mot dans la phrase indique son rôle.</p>
+
+      <div type="introduction">
+        <head>Introduction</head>
+        <p>Le français et le polonais sont des langues indo-européennes, la grammaire de la langue
+          française qui fait partie des langues romanes, ainsi que la langue polonaise (langue
+          slave) a hérité le classement de mots (parties de discours) de la grammaire greco-latine.
+          D'autres points communs de ces deux langues ce sont les notions du temps verbal, du nombre
+          et de la personne. Ce qui les éloignent considérablement ce sont surtout le système
+          casuel, l’ordre plus libre des mots et le système aspectuel.</p>
+        <p>Le français a perdu les restes de sa flexion nominale héritée du latin à la fin du Moyen,
+          ce qui l’oppose au polonais qui est une langue à déclinaison. Cette évolution du français
+          a influencé son système syntaxique et l’ordre de mots est devenu plus rigide - position du
+          nom marque une fonction dans la phrase.</p>
+        <p>Dans cette étude, nous voulons comparer le système casuel en polonais et ses équivalents
+          français et présenter des difficultés rencontrées lorsqu’on entreprend une étude
+          comparative de ces deux langues. Nous avons choisi ces langues à cause de ces traces
+          communes qui facilitent la comparaison. De plus, étant la locutrice native du polonais je
+          suis capable de tracer et d’expliquer les nuances présentes dans la traduction des
+          structures analysées.</p>
+        <p>Ce thème nous paraît intéressant non seulement en raison de son intérêt pour la
+          linguistique, mais aussi pour la didactique (surtout la didactique du polonais langue
+          étrangère) et le triatement automatique de ces deux langues. Dans plusieurs études, comme
+          celles de Brzeska, 2015 et Watorek et al., 2016 nous pouvons voir que les apprenants de la
+          langue polonaise ont beaucoup de problème à l’emploi propre des déclinaisons ce qui est dû
+          aux règles morphologiques très riches (marquage entre le sujet et le verbe et aussi entre
+          le substantif et l’adjectif - genre, nombre et cas) et aux nombreuses exceptions.</p>
+        <p>Pour viser les problèmes mentionnés nous observerons les différences et les solutions
+          utilisées dans les traductions de ces deux langues à partir d’un corpus recueille sur le
+          site internet <emph>Opus Corpus</emph>. Nous avons choisi ce logiciel disponible en ligne
+          afin de couvrir un maximum d’exemples d’utilisations possibles. <emph>Opus corpus</emph>
+          donne la possibilité d’obtenir un certain nombre de phrases et leur traduction alignée
+          dans la langue cible choisie à partir d’un mot cherché. Le logiciel propose plusieurs
+          corpus, mais nous avons decidé à utiliser le corpus des sous-titres (OpenSubtitles 2016),
+          car nous visons à construire un tableau des cas fonctionnels à l’oral - les dialogues des
+          films nous donnent cette possibilité.</p>
+        <p>Premierement, nous avons relevé plusieurs phrases proposées et leur traduction en
+          français pour chaque cas du polonais, au singulier et au pluriel. Deuxièmement, nous avons
+          analysé les phrases obtenu afin de relever les exemples les plus fréquents dans les deux
+          langues. Enfin, nous avons essayé de les classer dans un tableau pour mieux comprendre le
+          mode de fonctionnement du français et du polonais.</p>
+      </div>
+
+      <div type="section" n="1">
+        <head rend="bu1">Cadre théorique</head>
+        <div type="section" n="2">
+          <head rend="bu2">Le système casuel en polonais</head>
+          <p>Le polonais comme plusieurs langues slaves et le latin est une langue flexionnelle et
+            est doté d’une morphologie verbale et d’une morphologie nominale riche. La déclinaison
+            polonaise est complexe, même pour une langue slave et comprend sept cas (le latin
+            n’avait que six) :</p>
+          <list type="ul" rend="">
+            <item>
+              <seg type="traduction">nominatif - <foreign>mianownik</foreign>,</seg>
+            </item>
+            <item>
+              <seg type="traduction">génitif - <foreign>dopełniacz</foreign>,</seg>
+            </item>
+            <item>
+              <seg type="traduction">datif - <foreign>celownik</foreign>,</seg>
+            </item>
+            <item>
+              <seg type="traduction">accusatif - <foreign>biernik</foreign>,</seg>
+            </item>
+            <item>
+              <seg type="traduction">instrumental - <foreign>narzędnik</foreign>,</seg>
+            </item>
+            <item>
+              <seg type="traduction">locatif - <foreign>miejscownik</foreign>,</seg>
+            </item>
+            <item>
+              <seg type="traduction">vocatif - <foreign>wołacz</foreign>.</seg>
+            </item>
+          </list>
+          <p>Les cas sont formés à l’aide des terminaisons qui sont ajoutées au radical du nom, de
+            l’adjectif, de participe et de pronoms. Parfois certains mots changent aussi leur
+            radical <eg>(par exemple <foreign>ząb</foreign> [la dent] – <foreign>zęba</foreign>,
+                <foreign>ta</foreign> [celle-ci] – <foreign>tej</foreign>)</eg>. Le polonais
+            distingue les trois genres : masculin, féminin et neutre, chacun de ces genres se divise
+            en plusieurs déclinaisons.</p>
+          <p>
+            <seg type="traduction"><hi rend="b">Nominatif</hi> (<foreign>mianownik</foreign>)</seg>
+          </p>
+          <p>On emploie le nominatif avec le sujet ou l’attribut du sujet d’une phrase. Ce cas
+            répond aux questions <seg type="traduction"><hi rend="b"
+                  ><emph><foreign>kto</foreign></emph> ?</hi><emph> (qui ?)</emph> et <hi rend="b"
+                    ><emph><foreign>co</foreign></emph> ?</hi><emph> (quoi</emph> ?)</seg>.</p>
+          <p>
+            <seg type="traduction"><hi rend="b">Génitif</hi> (<foreign>dopełniacz</foreign>)</seg>
+          </p>
+          <p>Le génitif est principalement employé pour exprimer la possession, c’est le complément
+            de nom. Ce cas répond aux questions <seg type="traduction"><hi rend="b"
+                    ><emph><foreign>kogo</foreign></emph> ?</hi><emph> (de qui ?)</emph> et <hi
+                rend="b"><emph><foreign>czego</foreign></emph> ?</hi><emph> (de
+            quoi</emph> ?)</seg>.</p>
+          <p>
+            <seg type="traduction"><hi rend="b">Datif</hi> (<foreign>celownik</foreign>)</seg>
+          </p>
+          <p>Le datif quand on exprime <emph>pour</emph> ou <emph>vers</emph> une personne, c’est le
+            complément d’objet indirect. On utilise le datif sans marquer la préposition
+              <emph>pour</emph>. Ce cas répond aux questions <seg type="traduction"><hi rend="b"
+                    ><emph><foreign>komu</foreign></emph> ?</hi><emph> (à qui ?)</emph> et <hi
+                rend="b"><emph><foreign>czemu</foreign></emph> ?</hi><emph> (à
+            quoi</emph> ?)</seg>.</p>
+          <p>
+            <seg type="traduction"><hi rend="b">Accusatif</hi> (<foreign>biernik</foreign>)</seg>
+          </p>
+          <p>Accusatif : polonais <emph><foreign>biernik</foreign></emph>, qui vient de
+                <emph><foreign>bierny</foreign></emph> (passif). Répond au questions <seg
+              type="traduction"><hi rend="b"
+                ><emph><foreign>co</foreign></emph></hi>(<emph>quoi ?)</emph> et <hi rend="b"
+                    ><emph><foreign>kogo</foreign></emph></hi> (<emph>qui</emph> ?)</seg></p>
+          <p>
+            <seg type="traduction"><hi rend="b">Instrumental</hi>
+              (<foreign>narzędnik</foreign>)</seg>
+          </p>
+          <p>Instrumental : polonais <emph><foreign>narzędnik</foreign></emph>, qui vient de
+                <emph><foreign>narzędzie</foreign></emph> (instrument, objet). Répond au questions
+              <seg type="traduction"><hi rend="b"><foreign><emph>(z)
+                  c</emph><emph>zym</emph></foreign></hi>
+              <emph>(avec quoi ?)</emph> et <hi rend="b"
+                  ><foreign><emph>(z)</emph><emph>kim</emph></foreign></hi>
+              <emph>(avec qui ?)</emph></seg>.</p>
+          <p>
+            <seg type="traduction"><hi rend="b">Locatif</hi> (<foreign>miejscownik</foreign>)</seg>
+          </p>
+          <p>Locatif : polonais <emph><foreign>miejscownik</foreign></emph>, qui vient de
+                <emph><foreign>miejscowy</foreign></emph> (local). Répond au questions <seg
+              type="traduction"><hi rend="b"><emph><foreign>o czym</foreign></emph></hi><emph>(de
+                qui ?)</emph> et <hi rend="b"><emph><foreign>o kim</foreign></emph></hi>
+              <emph>(de qui ?)</emph></seg>.</p>
+          <p>
+            <seg type="traduction"><hi rend="b">Vocatif</hi> (<foreign>wołacz</foreign>)</seg>
+          </p>
+          <p>Le vocatif est utilisé pour s’adresser à quelqu’un et, très souvent, est separé du
+            reste de la phrase par le virgule.</p>
+          <p>Le tableau ci-dessous résume les formes casuelles et leurs fonctions syntaxiques et
+            sémantiques :</p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 25%" rend="col1"/>
+              <span type="col" style="width: 25%" rend="col2"/>
+              <span type="col" style="width: 25%" rend="col3"/>
+              <span type="col" style="width: 25%" rend="col4"/>
+            </spanGrp>
+            <head> les formes casuelles et leurs fonctions syntaxiques et sémantiques </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p>Lenart, 2006 : Tableau 1.4, p. 63  : Le système flexionnel du polonais et ses fonctions
+            les plus typiques.</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Le système prépositionelle du français</head>
+          <p>En français, ces déclinaisons n’existent pas. Les deux cas qu’il avait hérités du latin
+            ont été remplacés par un seul cas et les relations exprimées en latin ou en polonais par
+            les morphèmes flexionnels sont aujourd’hui exprimées par certaines prépositions, en
+            particulier par les prépositions de, à, en qui se sont soudées avec les articles afin de
+            former « <quote>les morphèmes préfixés </quote>» (Gniadek, 1979 : 67). Même si polonais
+            se sert également des prépositions <eg><seg type="traduction">(<foreign>idę do
+                  teatru</foreign> – je vais au théâtre ; <foreign>teatr</foreign>
+              [théâtre])</seg></eg>, il garde toujours tout ses cas.</p>
+        </div>
+      </div>
+
+      <div type="section" n="1">
+        <head rend="bu1">Méthodologie</head>
+        <p rend="default">Comme on part de l’observation du corpus, sans aucun présupposé théorique,
+          on va se servir de l’approche « corpus-driven ». Des analyses et des conclusions seront
+          faire à partir du corpus des exemples repérés dans le corpus <emph>Opus Corpus</emph>
+          présentés dans l’introduction.</p>
+        <p>Étant consciente de la complexité du système aspectuel de la langues polonaise, nous
+          avons décidé de nous concentrer sur la flexion nominale.</p>
+        <p>En ce qui concerne le recueil des données, cette une étude documentaire contrastive de
+          groupes de textes (sous-titres) bilingues allignés :</p>
+        <list type="ul" rend="">
+          <item>polonais - langue source</item>
+          <item>français - langue cible.</item>
+        </list>
+        <p>Vu que le logiciel <emph>Opus corpus</emph> ne donne pas la possibilité d’un rechcerche
+          des lemmes de mots qui permettrait de réperer tous les cas d’un mot choisi et grace à cela
+          contruire une liste des morphèmes, nous étions obligés de se servir des tableaux de
+          déclinaison disponible en ligne : odmiana.net (ammexe 1 et 2).</p>
+        <p>Les mots sélectionnés pour ce tâche se sont : <seg type="traduction"
+              ><foreign>syn</foreign> [fils] et <foreign>książka</foreign> [livre]</seg>. Nous avons
+          sélectionnés ces deux noms, parce qu’ils représentent en polonais deux genre différents :
+            <foreign>syn</foreign> - le masculin, <foreign>książka</foreign> - le féminin, et
+          appartiennent à différents groupes de mots (répondent aux questions différents : <seg
+            type="traduction"><foreign>syn - kto ? </foreign><emph>(qui ?)</emph></seg>, <seg
+            type="traduction"><foreign>książka - co ?</foreign><emph>(quoi ?)</emph></seg>.</p>
+        <p>Quant à la méthodologie de traitement des données, nous avons opté pour l’approche
+          qualitative puisque le nombre d’exemple analysé (20 pour chaque cas) ne permet pas
+          d’utiliser l’approche quantitative.</p>
+        <p>À la base des exemples obtenus nous avons construit les tableaux comparatives de système
+          de la flexion nominale du polonais et de «<quote> système de paradéclinaison </quote>»
+          (Gniadek, 1979 : 68).</p>
+      </div>
+
+      <div type="section" n="1">
+        <head rend="bu1">Analyse et résultats</head>
+        <p>Entre les exemples analysés nous avons choisi quelques-unes pour chaque cas pour montrer
+          les relations entre le français et le polonais.</p>
+        <div type="section" n="2">
+          <head rend="bu2">Nominatif</head>
+          <p>singulier :<hi rend="b">
+              <foreign>SYN</foreign></hi>
+            <seg type="traduction">(<foreign>kto</foreign> ? - <emph>qui</emph> ?)</seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 48%" rend="col1"/>
+              <span type="col" style="width: 52%" rend="col2"/>
+            </spanGrp>
+            <head>singulier <foreign>SYN</foreign> Nominatif</head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left"><lb/>pluriel : <hi rend="b"><foreign>SYNOWIE</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> plurier <foreign>SYNOWIE</foreign> Nominatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">singulier :<hi rend="b">
+              <foreign>KSIĄŻKA</foreign></hi>
+            <seg type="traduction">(<foreign>co</foreign> ? - <emph>quoi</emph> ?)</seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>KSIĄŻKA</foreign> Nominatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻKI</foreign></hi></p>
+          <p rend="left i">Voici la seule exemple trouvé pendant l’analyse de 60 exemples pour le
+            cas nominatif pluriel d’un mot <foreign>książka</foreign> [livre].</p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> plurier <foreign>KSIĄŻKI</foreign> Nominatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">Nous pouvons observer une simple relation, le cas nominatif polonais
+            correspond au sujet précédé par les pronoms en français.</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Génitif</head>
+          <p rend="left">singulier :<hi rend="b">
+              <foreign>SYNA</foreign></hi><seg type="traduction">
+              <foreign>kogo</foreign> ? <emph>(de qui ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 45%" rend="col1"/>
+              <span type="col" style="width: 55%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>SYNA kogo</foreign>? Génitif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left"><lb/>pluriel : <hi rend="b"><foreign>SYNÓW</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 48%" rend="col1"/>
+              <span type="col" style="width: 52%" rend="col2"/>
+            </spanGrp>
+            <head> plurier <foreign>SYNÓW</foreign> Génitif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">singulier : <hi rend="b"><foreign>KSIĄŻKI</foreign></hi><seg
+              type="traduction">
+              <foreign>czego</foreign> ? <emph>(de quoi ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 56%" rend="col1"/>
+              <span type="col" style="width: 44%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>KSIĄŻKI czego</foreign> ? Génitif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻEK</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 52%" rend="col1"/>
+              <span type="col" style="width: 48%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>KSIĄŻEK</foreign> Génitif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">Le génitif répond aux questions : de qui ? de quoi ? et en français le nom
+            se combine avec la préposition «<quote> de </quote>». Parfois, cette configuration
+            change à cause de la spécificité d’un verbe, comme dans l’exemple : <eg>mener
+            à</eg>.</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Datif</head>
+          <p rend="left">singulier : <hi rend="b"><foreign>SYNOWI</foreign></hi>
+            <seg type="traduction"><foreign>komu</foreign> ? <emph>(à qui ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 54%" rend="col1"/>
+              <span type="col" style="width: 46%" rend="col2"/>
+            </spanGrp>
+            <head> singulier : <foreign>SYNOWI komu</foreign> ? Datif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>SYNOM</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 54%" rend="col1"/>
+              <span type="col" style="width: 46%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>SYNOM</foreign> Datif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">singulier : <hi rend="b"><foreign>KSIĄŻCE</foreign></hi>
+            <seg type="traduction"><foreign>czemu</foreign> ? <emph>(à quoi ?)</emph></seg></p>
+          <p rend="left i">Sur 60 exemples analysées nous ne pouvions pas réperer une seule qui
+            correspondrair au cas datif du mot <seg type="traduction"><foreign>książka</foreign>
+              [livre]</seg>.</p>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻKOM</foreign></hi></p>
+          <p rend="left"><foreign>tylko</foreign> 14 resultats, dans 7 ont compris le mot livres
+            dans la traduction francaise</p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 56%" rend="col1"/>
+              <span type="col" style="width: 44%" rend="col2"/>
+            </spanGrp>
+            <head> mot livres compris dans la traduction francaise Datif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">Nous voyons que comme l’indique la question posée pour le datif, la plupart
+            des exemples en français est lié avec le préposition «<quote> à </quote>».</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Accusatif</head>
+          <p rend="left">singulier : <hi rend="b"><foreign>SYNA</foreign></hi><seg type="traduction">
+              <foreign>kogo</foreign> ?<emph> (qui ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 51%" rend="col1"/>
+              <span type="col" style="width: 49%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>SYNA kogo</foreign> Accusatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>SYNÓW</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>SYNÓW</foreign> Accusatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">singulier : <hi rend="b"><foreign>KSIĄŻKĘ</foreign></hi><seg
+              type="traduction">
+              <foreign>co</foreign> ? <emph>(quoi ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+            </spanGrp>
+            <head> singulier : <foreign>KSIĄŻKĘ co</foreign> ? Accusatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻKI</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>KSIĄŻKI</foreign> Accusatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">L'accusatif dans sa moitié repond à la même question que le nominatif :
+            quoi ? et comme nous pouvons le voir à la base des exemples présentés en framnçais il
+            prend les mêmes forme que le nominatif.</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Instrumental</head>
+          <p rend="left">singulier : <hi rend="b"><foreign>SYNEM</foreign></hi><seg
+              type="traduction">
+              <foreign>z kim</foreign> ? <emph>(avec qui ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 52%" rend="col1"/>
+              <span type="col" style="width: 48%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>SYNEM z kim</foreign>? Instrumental </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>SYNAMI</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>SYNAMI</foreign> Instrumental </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">singulier : <hi rend="b"><foreign>KSIĄŻKĄ</foreign></hi><seg
+              type="traduction">
+              <foreign>z czym</foreign> ? <emph>(avec quoi ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>KSIĄŻKĄ z czym</foreign> ? Instrumental </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻKAMI</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>KSIĄŻKAMI</foreign> Instrumental </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p>On trouve pas aucune régularité (sauf pour <seg type="traduction"
+                ><foreign>synami</foreign> [fils au pluriel]</seg>). En français le cas instrumental
+            est de divers manières et chaque entre eux dépend du contexte et de la construction du
+            verbe utilisé.</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Locatif</head>
+          <p rend="left">singulier : <hi rend="b"><foreign>SYNU</foreign></hi><seg type="traduction">
+              <foreign>o kim</foreign> ? <emph>(de qui ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 49%" rend="col1"/>
+              <span type="col" style="width: 51%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>SYNU o kim</foreign>? Locatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>SYNACH</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel <foreign>SYNACH</foreign> Locatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">singulier : <hi rend="b"><foreign>KSIĄŻCE</foreign></hi><seg
+              type="traduction">
+              <foreign>o czym</foreign> ? <emph>(de quoi ?)</emph></seg></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 53%" rend="col1"/>
+              <span type="col" style="width: 47%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>KSIĄŻCE o czym</foreign>? Locatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻKACH</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+            </spanGrp>
+            <head> pluriel : <foreign>KSIĄŻKACH</foreign> Locatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p>En polonais la question de locatif se compose de deux prépostions différentes :</p>
+          <list type="ul" rend="">
+            <item>
+              <seg type="traduction"><emph><foreign>o kim ? o czym</foreign></emph> ? qui peut être
+                traduites comme <emph>de qui ? de quoi</emph> ? ;</seg>
+            </item>
+            <item>
+              <seg type="traduction"><emph><foreign>w kim ? w czym</foreign></emph> ? qui peut être
+                traduites comme <emph>dans qui ? dans quoi ?.</emph></seg>
+            </item>
+          </list>
+          <p>Deux prépositions figurant dans les question sont aussi présentes dans les exemples
+            mentionnées au-dessus. Néanmoins, dans la plupart de cas cette situation est lié avec la
+            construction du verbe et de plus, on peut voir aussi d’autre modes d’emplois.</p>
+        </div>
+        <div type="section" n="2">
+          <head rend="bu2">Vocatif</head>
+          <p rend="left">singulier : <hi rend="b"><foreign>SYNU</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> singulier <foreign>SYNU</foreign> Vocatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">pluriel : <hi rend="b"><foreign>SYNOWIE</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+              <span type="col" style="width: 50%" rend="col2"/>
+            </spanGrp>
+            <head> pluriel : <foreign>SYNOWIE</foreign> Vocatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">
+            <emph>Sur 60 cas analysés c’était le seul exemple trouvé.</emph>
+          </p>
+          <p rend="left">singulier : <hi rend="b"><foreign>KSIĄŻKO</foreign></hi></p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 50%" rend="col1"/>
+            </spanGrp>
+            <head> singulier <foreign>KSIĄŻKO</foreign> Vocatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p>
+            <emph>Les trois exemple visible au-dessus ce sont tous les exemples qu’on trouve dans le
+              sous-corpus OpenSubtitles2016. De plus, un entre eux est mal traduit.</emph>
+          </p>
+          <p rend="left">pluriel : <hi rend="b"><foreign>KSIĄŻKI</foreign></hi></p>
+          <p rend="i">Aucun résultat pour le mot <seg type="traduction"><foreign>książki</foreign>
+              [livres]</seg> dans le vocatif.</p>
+          <p>On obesrvons les résultats mentionnés, nous pouvons dire que dans deux langues, dans
+            presque chaque cas le vocatif est combiné avec le virgule et très souvent avec le point
+            d’exclamation.</p>
+        </div>
+        <div type="section" n="2">
+          <p>Voici les deux tableaux résumant deux mots analysés en polonais et en français.</p>
+          <p rend="left">Tableau , «<quote> Système de paradéclinaison </quote>» (Gniadek, 1979 :
+            68) français et la flexion nominale du mot <seg type="traduction"><foreign>SYN</foreign>
+              [fils]</seg>.</p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 20%" rend="col1"/>
+              <span type="col" style="width: 20%" rend="col2"/>
+              <span type="col" style="width: 20%" rend="col3"/>
+              <span type="col" style="width: 20%" rend="col4"/>
+              <span type="col" style="width: 20%" rend="col5"/>
+            </spanGrp>
+            <head> pluriel : <foreign>KSIĄŻKI</foreign> Vocatif </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+          <p rend="left">Tableau , «<quote> Système de paradéclinaison </quote>» (Gniadek, 1979 :
+            68) français et la flexion nominale du mot <seg type="traduction"
+                ><foreign>KSIĄŻKA</foreign> [livre]</seg>.</p>
+          <table rend="left">
+            <spanGrp type="colgroup">
+              <span type="col" style="width: 20%" rend="col1"/>
+              <span type="col" style="width: 20%" rend="col2"/>
+              <span type="col" style="width: 20%" rend="col3"/>
+              <span type="col" style="width: 20%" rend="col4"/>
+              <span type="col" style="width: 20%" rend="col5"/>
+            </spanGrp>
+            <head> Système de paradéclinaison </head>
+            <row>
+              <cell/>
+            </row>
+          </table>
+        </div>
+      </div>
+
+      <div type="conclusion">
+        <head>Conclusion</head>
+        <p>En effet, les résultats obtenus montrent que la réduction des formes de la déclinaison
+          française d’origine latine n’a pas appauvri les possibilités de l’expression du français,
+          mais le système qui l’a remplacé est beaucoup plus libre.</p>
+        <p>En même temps, nous voyons que le système causel polonais est concerné par beaucoup
+          d’ambiguïtés relevant de la polysémie de certains cas (la forme du génitif singulier du
+          mot <foreign>książka</foreign> est la même que celle du nominatif et de l’accusatif
+          pluriel).</p>
+        <p>Cette réduction des cas en français et les ambiguïtés présentes en polonais jouent un
+          rôle essentiel dans l’enseignement des langues et provoque de difficultés pour le
+          traitement automatique des langues. La richesse des marquers morphologiques en polonais
+          complique la création des etiquettes morpho-syntaxiques et en conséquance, la traduction
+          automatique de cette langue.</p>
+        <p>Ce qui est très intéressant ce sont les effets syntaxiques résultatnt de la flexion
+          nominale en polonais : l’ordre de mot beaucoup plus libre qu’en français (nous pouvons
+          l’observer sur les exemples des phrases observés danc cette étude, mais aussi avec
+          l’absence du pronom sujet et l’absence de l’article sauf le démonstratif.</p>
+        <p>L'ordre des mots relativement libre du polonais peut provoquer beaucoup de fautes chez
+          les Polonais qui aprennet le français. En français la place du mot dans la phrase indique
+          son rôle.</p>
+      </div>
 
     </body>
 
@@ -544,10 +711,19 @@
       <div type="Bibliographie">
         <head>Bibliographie</head>
         <listBibl>
-        <bibl>Brzeska, E. L’Autre communiquant avec la langue maternelle d’Autrui–les fautes des Français qui apprennent le polonais.</bibl>
-        <bibl>Dziadkiewicz, A., &amp; Thomas, I. (2007). Bulag nT 32. 2007 Les langues slaves et le français: approches formelles dans les études contrastives LES LANGUES SLAVES ET LE FRANÇAIS: DE LA DIVERGENCE FORMELLE À LA CONVERGENCE SÉMANTIQUE. <emph>Les langues slaves et le français</emph>, (32), 35.</bibl>
-        <bibl>Gniadek, S. (1979). <emph>Grammaire contrastive franco-polonaise</emph>. Państwowe Wydawnictwo Naukowe.</bibl>
-        <bibl>Watorek, M., Durand, M., &amp; Starosciak, K. (2016). L’impact de l’input et du type de tâche sur la production de la morphologie nominale en polonais par des apprenants francophones débutants. <emph>Discours. Revue de linguistique, psycholinguistique et informatique. A journal of linguistics, psycholinguistics and computational linguistics</emph>, (18).</bibl>
+          <bibl>Brzeska, E. L’Autre communiquant avec la langue maternelle d’Autrui–les fautes des
+            Français qui apprennent le polonais.</bibl>
+          <bibl>Dziadkiewicz, A., &amp; Thomas, I. (2007). Bulag nT 32. 2007 Les langues slaves et
+            le français: approches formelles dans les études contrastives LES LANGUES SLAVES ET LE
+            FRANÇAIS: DE LA DIVERGENCE FORMELLE À LA CONVERGENCE SÉMANTIQUE. <emph>Les langues
+              slaves et le français</emph>, (32), 35.</bibl>
+          <bibl>Gniadek, S. (1979). <emph>Grammaire contrastive franco-polonaise</emph>.
+              <foreign>Państwowe Wydawnictwo Naukowe</foreign>.</bibl>
+          <bibl>Watorek, M., Durand, M., &amp; Starosciak, K. (2016). L’impact de l’input et du type
+            de tâche sur la production de la morphologie nominale en polonais par des apprenants
+            francophones débutants. <emph>Discours. Revue de linguistique, psycholinguistique et
+              informatique. <foreign>A journal of linguistics, psycholinguistics and computational
+                linguistics</foreign></emph>, (18).</bibl>
         </listBibl>
       </div>
       <div type="Annexe">
@@ -558,11 +734,9 @@
             <span type="col" style="width: 33%" rend="col2"/>
             <span type="col" style="width: 33%" rend="col3"/>
           </spanGrp>
-          <head>
-            Annexe
-          </head>
+          <head> Annexe </head>
           <row>
-            </cell>
+            <cell/>
           </row>
         </table>
         <table rend="left">
@@ -571,11 +745,9 @@
             <span type="col" style="width: 33%" rend="col2"/>
             <span type="col" style="width: 33%" rend="col3"/>
           </spanGrp>
-          <head>
-            Annexe
-          </head>
+          <head> Annexe </head>
           <row>
-            </cell>
+            <cell/>
           </row>
         </table>
       </div>
