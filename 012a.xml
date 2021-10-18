@@ -6,8 +6,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>[Titre non renseigné]</title>
-        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">[Auteur non renseigné]</name>
+        <title>012a</title>
+        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">Jamros</name>
       </titleStmt>
       <editionStmt>
         <edition>Rougemont 2.0</edition>
@@ -24,22 +24,67 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="[AAAA-MM-JJ]"/>
+        <date when="4/10/2018"/>
       </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="Etablissement">UFR LLASIC</term>
+          <term type="pays">France</term>
+          <term type="ville">Grenoble</term>
+          <term type="responsable">UFR LLASIC</term>
+          <term type="type_document">Dossier d'analyse</term>
+
+          <term type="nom">Jamros</term>
+          <term type="prénom"></term>
+          <term type="sexe"></term>
+          <term type="âge">25</term>
+          <term type="nationalité">Polonais</term>
+          <term type="langueMaternelle">polonais</term>
+          <term type="paysDeRésidence">France</term>
+          <term type="langueParléeAvecParents|frères|sœurs">polonais</term>
+          <term type="langueMaternelleParents|frères|sœurs">polonais</term>
+          <term type="langueParléeAvecConjointEt|OuEnfants"></term>
+          <term type="langueMaternelleConjointEt|OuEnfants"></term>
+          
+          <term type="étudesEnCours"> M2 Linguistique</term>
+          <term type="niveauEtudesDansLePaysD’origine">Licence</term>
+          <term type="spécialitéDansLePaysD’origine">Linguistique appliquée - traitement de textes</term>
+          <term type="AnnéesD'arriverenFrance">2017</term>
+          <term type="duréeDeSéjourEnFrance">2 ans</term>
+          <term type="autresSéjoursEnFrance/paysFrancophone">2 fois pour 2 semaines</term>
+          <term type="niveauCECRLestimé">C1</term>
+          <term type="autresLanguesConnues">anglais</term>
+          <term type="séjoursEtranger"></term>
+          <term type="autresLanguesConnues">tchèque</term>
+          <term type="séjoursEtranger">2 semaines pendant 6 ans</term>
+          <term type="langueEtudesTravail">français</term>
+          <term type="langueEchangesAmis">français</term>
+          <term type="langueLecture">français</term>
+          <term type="langueLecture">polonais</term>
+          <term type="langueLecture">anglais</term>
+          <term type="langueTélévisionCinéma">français</term>
+          <term type="langueTélévisionCinéma">anglais</term>
+          <term type="nombreLivresEnFrançaisParAn">6-8</term>
+          <term type="moyenAideRédaction">dictionnaire bilingue</term>
+          <term type="moyenAideRédaction">grammaire</term>
+        </keywords>
+      </textClass>
+
     </profileDesc>
+
   </teiHeader>
   <text>
     <front>
       <div type="titre">
         <titlePage rend="center">
           <docTitle>
-            <titlePart type="main">Titre non renseigné (012a)</titlePart>
+            <titlePart type="main">012a</titlePart>
           </docTitle>
           <byline>
-            <docAuthor>Auteur non renseigné</docAuthor>
+            <docAuthor>Jamros</docAuthor>
           </byline>
           <docImprint>
             <lb/>Université de Genève </docImprint>
