@@ -6,8 +6,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>[Titre non renseigné]</title>
-        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">[Auteur non renseigné]</name>
+        <title>012b</title>
+        <name key="[Nom, Prénom (AAAA-AAAA)]" type="author">Jamros</name>
       </titleStmt>
       <editionStmt>
         <edition>Rougemont 2.0</edition>
@@ -24,50 +24,164 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="[AAAA-MM-JJ]"/>
+        <date when="[2018-10-04]"/>
       </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <keywords>
+        <term type="Etablissement">UFR LLASIC</term>
+        <term type="pays">France</term>
+        <term type="ville">Grenoble</term>
+        <term type="responsable">UFR LLASIC</term>
+        <term type="type_document">Dossier d'analyse</term>
+
+        <term type="nom">Jamros</term>
+        <term type="prénom"/>
+        <term type="sexe"/>
+        <term type="âge">25</term>
+        <term type="nationalité">Polonais</term>
+        <term type="langueMaternelle">polonais</term>
+        <term type="paysDeRésidence">France</term>
+        <term type="langueParléeAvecParents|frères|sœurs">polonais</term>
+        <term type="langueMaternelleParents|frères|sœurs">polonais</term>
+        <term type="langueParléeAvecConjointEt|OuEnfants"/>
+        <term type="langueMaternelleConjointEt|OuEnfants"/>
+
+        <term type="étudesEnCours"> M2 Linguistique</term>
+        <term type="niveauEtudesDansLePaysD’origine">Licence</term>
+        <term type="spécialitéDansLePaysD’origine">Linguistique appliquée - traitement de
+          textes</term>
+        <term type="AnnéesD'arriverenFrance">2017</term>
+        <term type="duréeDeSéjourEnFrance">2 ans</term>
+        <term type="autresSéjoursEnFrance/paysFrancophone">2 fois pour 2 semaines</term>
+        <term type="niveauCECRLestimé">C1</term>
+        <term type="autresLanguesConnues">anglais</term>
+        <term type="séjoursEtranger"/>
+        <term type="autresLanguesConnues">tchèque</term>
+        <term type="séjoursEtranger">2 semaines pendant 6 ans</term>
+        <term type="langueEtudesTravail">français</term>
+        <term type="langueEchangesAmis">français</term>
+        <term type="langueLecture">français</term>
+        <term type="langueLecture">polonais</term>
+        <term type="langueLecture">anglais</term>
+        <term type="langueTélévisionCinéma">français</term>
+        <term type="langueTélévisionCinéma">anglais</term>
+        <term type="nombreLivresEnFrançaisParAn">6-8</term>
+        <term type="moyenAideRédaction">dictionnaire bilingue</term>
+        <term type="moyenAideRédaction">grammaire</term>
+      </keywords>
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <titlePage rend="center">
+        <docTitle>
+          <titlePart type="main">Typologie des langues</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jamros</docAuthor>
+        </byline>
+        <docImprint>
+          <lb/>Master 2 Sciences du langage <lb/>M2 Parcours Linguistique <lb/>Multimodalité du
+          langage </docImprint>
+      </titlePage>
+
+      <div type="table">
+        <head>Sommaire</head>
+        <p>Hypothèse   ...1</p>
+        <p>Fondement théorique   ...1</p>
+        <p>Méthodologie   ...2</p>
+        <p>Résultats   ...2</p>
+        <p>Discussion   ...2</p>
+        <p>Commentaire de l'article   ...2</p>
+      </div>
+    </front>
     <body>
       <p>XX <hi rend="b">XX</hi></p>
       <p>M2 Parcours Linguistique</p>
       <p>Multimodalité du langage</p>
-      <p rend="b" xml:lang="en">Part of the message comes in gesture: how people with aphasia convey information in different gesture types as compared with information in their speech</p>
-      <p>Karin van Nipsen, Mieke van Sandt-Koenderman, Kazuki Sekine, Emiel Krahmer &amp; Miranda L. Rose (2017), Aphasiology, 31:9, 1078-1103, DOI: 10.1080/02687038.2017.1301368</p>
-      <p><hi rend="b">Hypothèse</hi> (question à laquelle répond l’article)</p>
-      <p>Cet étude vise à verifier la contribution des gestes dans la communication des personnes avec l’aphasie :</p>
-      <p>1. différents techniques de représantation dans la communication semi-spontannée ;</p>
-      <p>2. quels gestes sont les plus communicatives et le taux des informations portées par les gestes (absentes dans la communication orale).</p>
-      <p rend="b">Fondement théorique</p>
-      <p>Les auteurs mentionnent les plusieurs travaux qui parlent de l’aphasie :</p>
-      <list type="ul" rend="">
-        <item>l’accompagnemant du geste à la parole (Hogrefe et al., 2012 ; Hogrefe et al., 2013 ; Mol, Krahmer &amp; van de Sandt-Koenderman, 2013 ; Protchard et al., 2015) ;</item>
-        <item>les gestes facilitent le discours (Cocks et al., 2011 ; Lanyon &amp; Rose, 2009) ;</item>
-        <item>pantomime - les gestes en l’absence de paroles (Hogrefe et al., 2013 ; van Nispen et al., 2014, 2016 ; Caute et al., 2013 ; Kroenke et al., 2013) ;</item>
-        <item>comment les gestes des personnes aphsiaques contribuent à la communication (de Beer et al., sous presse ; Hogrefe et al., 2013) ;</item>
-        <item>les types des gestes informatives (Behremenn &amp; Penn, 1984 ; Cocks et al., 2013 ; Goodwin, 1995 ; Kemmerer, Chandrasekaran &amp; Tranel, 2007 ; Kong et al., 2015 ; Sekine &amp; Rose, 2013) ;</item>
-        <item>les techniques de representation des gestes (Mol et al., 2013 ; van Foster, Attard &amp; Lanyon, 2013) ;</item>
-      </list>
-      <p rend="b">Méthodologie</p>
-      <p>L'étude est une analyse comparative de 46 personnes aphasiques (différents types d’aphasie) et 9 participants sans endommagées cérébraux pendant la production semi-spontannée (l’utilisation de corpus déjà existant).</p>
-      <p>Les productions des participants ont été annoté dans Elan. L'annotation a été efféctué par deux personnes séparément, toutes les différences ont été discutées et verifiées par la troisième personnes.</p>
-      <p>Les auteurs ont regroupé les gestes dans trois catégories (le schéma basé sur le travail de Coletta et al., 2009) : gestes similaires, gestes supplémentaires, gestes essentiels ; afin d’identifier le taux des gestes essentiels dans les deux groupes examinés.</p>
-      <p rend="b">Résultats</p>
-      <p>Les auteurs ont observé une forte variation individuelle.</p>
-      <p>Un cinquième des gestes de personnes aphasiques ce sont les gestes essentiels (22%) et 70% ce sont les gestes similaires.</p>
-      <p>Les personnes aphasiques produisent plus de gestes essentiels que les personnes sans dommagées cérébrals (qui les produisent qu’une quntité limitée).</p>
-      <p>Les informations essentiels ont été transmis par : pointage, emblèmes et gestes emblématiques.</p>
-      <p rend="b">Discussion / conclusion</p>
-      <p>Les résultats suggèrent qu’une grande proportion des gestes produitent par les personnes aphasiques transmettent les informations indispensables pour comprendre leurs discours.</p>
-      <p>Les auteurs indiquent que les thérapeutes de la parole et du langage pourraient appeler l’attention des interlocuteurs des personnes aphasiques sur l’importance de certains types de gestes produits par les personnes aphasiques pendant la communication.</p>
-      <p rend="b">Commentaire de l’article</p>
-      <p>Je trouve que la quetion posée par les auteurs sur l’importance des gestes des personnes aphasiques est très intéressant et peut être un début d’une nouvelle thérapie.</p>
-      <p>Néanmoins, je pense que le corpus utilisait dans cette recherche n’est pas idéal, même les auteurs indiquent que dans la base de données AphasiaBank manque plusieurs informations nécessaires dans leur étude.</p>
-      <p>De plus, la recherche est une introduction aux prochaines études et du coup plupart de texte est une polémique avec les résultats obtenus et les propositions pour l’avenir, à mon avis, cela fait que les résultats obténus deviennent moins importants.</p>
+      <p rend="b" xml:lang="en">
+        <foreign>Part of the message comes in gesture: how people with aphasia convey information in
+          different gesture types as compared with information in their speech</foreign>
+      </p>
+      <p>Karin van Nipsen, Mieke van Sandt-Koenderman, Kazuki Sekine, Emiel Krahmer &amp; Miranda L.
+        Rose (2017), Aphasiology, 31:9, 1078-1103, DOI: 10.1080/02687038.2017.1301368</p>
+      <div type="section" n="1">
+        <head>
+          <hi rend="b">Hypothèse</hi>
+        </head>
+        <subtitle>(question à laquelle répond l’article)</subtitle>
+        <p>Cet étude vise à verifier la contribution des gestes dans la communication des personnes
+          avec l’aphasie :</p>
+        <p>1. différents techniques de représantation dans la communication semi-spontannée ;</p>
+        <p>2. quels gestes sont les plus communicatives et le taux des informations portées par les
+          gestes (absentes dans la communication orale).</p>
+      </div>
+      <div type="section" n="1">
+        <p rend="b">Fondement théorique</p>
+        <p>Les auteurs mentionnent les plusieurs travaux qui parlent de l’aphasie :</p>
+        <list type="ul" rend="">
+          <item>l’accompagnemant du geste à la parole (Hogrefe et al., 2012 ; Hogrefe et al., 2013 ;
+            Mol, Krahmer &amp; van de Sandt-Koenderman, 2013 ; Protchard et al., 2015) ;</item>
+          <item>les gestes facilitent le discours (Cocks et al., 2011 ; Lanyon &amp; Rose,
+            2009) ;</item>
+          <item>pantomime - les gestes en l’absence de paroles (Hogrefe et al., 2013 ; van Nispen et
+            al., 2014, 2016 ; Caute et al., 2013 ; Kroenke et al., 2013) ;</item>
+          <item>comment les gestes des personnes aphsiaques contribuent à la communication (de Beer
+            et al., sous presse ; Hogrefe et al., 2013) ;</item>
+          <item>les types des gestes informatives (Behremenn &amp; Penn, 1984 ; Cocks et al., 2013 ;
+            Goodwin, 1995 ; Kemmerer, Chandrasekaran &amp; Tranel, 2007 ; Kong et al., 2015 ; Sekine
+            &amp; Rose, 2013) ;</item>
+          <item>les techniques de representation des gestes (Mol et al., 2013 ; van Foster, Attard
+            &amp; Lanyon, 2013) ;</item>
+        </list>
+      </div>
+      <div type="section" n="1">
+        <p rend="b">Méthodologie</p>
+        <p>L'étude est une analyse comparative de 46 personnes aphasiques (différents types
+          d’aphasie) et 9 participants sans endommagées cérébraux pendant la production
+          semi-spontannée (l’utilisation de corpus déjà existant).</p>
+        <p>Les productions des participants ont été annoté dans Elan. L'annotation a été efféctué
+          par deux personnes séparément, toutes les différences ont été discutées et verifiées par
+          la troisième personnes.</p>
+        <p>Les auteurs ont regroupé les gestes dans trois catégories (le schéma basé sur le travail
+          de Coletta et al., 2009) : gestes similaires, gestes supplémentaires, gestes essentiels ;
+          afin d’identifier le taux des gestes essentiels dans les deux groupes examinés.</p>
+      </div>
+      <div type="section" n="1">
+        <p rend="b">Résultats</p>
+        <p>Les auteurs ont observé une forte variation individuelle.</p>
+        <p>Un cinquième des gestes de personnes aphasiques ce sont les gestes essentiels (22%) et
+          70% ce sont les gestes similaires.</p>
+        <p>Les personnes aphasiques produisent plus de gestes essentiels que les personnes sans
+          dommagées cérébrals (qui les produisent qu’une quntité limitée).</p>
+        <p>Les informations essentiels ont été transmis par : pointage, emblèmes et gestes
+          emblématiques.</p>
+      </div>
+      <div type="section" n="1">
+        <p rend="b">Discussion / conclusion</p>
+        <p>Les résultats suggèrent qu’une grande proportion des gestes produitent par les personnes
+          aphasiques transmettent les informations indispensables pour comprendre leurs
+          discours.</p>
+        <p>Les auteurs indiquent que les thérapeutes de la parole et du langage pourraient appeler
+          l’attention des interlocuteurs des personnes aphasiques sur l’importance de certains types
+          de gestes produits par les personnes aphasiques pendant la communication.</p>
+      </div>
+      <div type="section" n="1">
+        <p rend="b">Commentaire de l’article</p>
+        <p>Je trouve que la quetion posée par les auteurs sur l’importance des gestes des personnes
+          aphasiques est très intéressant et peut être un début d’une nouvelle thérapie.</p>
+        <p>Néanmoins, je pense que le corpus utilisait dans cette recherche n’est pas idéal, même
+          les auteurs indiquent que dans la base de données <foreign> AphasiaBank</foreign> manque
+          plusieurs informations nécessaires dans leur étude.</p>
+        <p>De plus, la recherche est une introduction aux prochaines études et du coup plupart de
+          texte est une polémique avec les résultats obtenus et les propositions pour l’avenir, à
+          mon avis, cela fait que les résultats obténus deviennent moins importants.</p>
+      </div>
     </body>
+    <back>
+    </back>
+
   </text>
 </TEI>
